@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import Page404 from "./pages/404";
 import Header from "./componet/header";
 import "./output.css";
+
 function AppRouting() {
   return (
     <Routes>
