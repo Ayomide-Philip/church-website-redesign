@@ -486,6 +486,12 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-\[\#1A1511\] {
+    background-color: #1A1511;
+  }
+  .bg-\[\#50d71e\] {
+    background-color: #50d71e;
+  }
   .bg-blue-50 {
     background-color: var(--color-blue-50);
   }
