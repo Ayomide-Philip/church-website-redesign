@@ -90,6 +90,9 @@ export default function Header() {
           <a href="./#" className="text-sm/6 font-semibold text-gray-900">
             Home
           </a>
+          <a href="./#" className="text-sm/6 font-semibold text-gray-900">
+            Events
+          </a>
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
               Product
