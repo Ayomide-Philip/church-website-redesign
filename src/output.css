@@ -489,6 +489,9 @@
   .bg-\[\#00000080\] {
     background-color: #00000080;
   }
+  .bg-\[\#FFFFFF\] {
+    background-color: #FFFFFF;
+  }
   .bg-blue-50 {
     background-color: var(--color-blue-50);
   }
@@ -619,8 +622,14 @@
   .text-\[\#FFFF\] {
     color: #FFFF;
   }
+  .text-\[\#afa4a476\] {
+    color: #afa4a476;
+  }
   .text-\[\#fff\] {
     color: #fff;
+  }
+  .text-\[\#ffffff76\] {
+    color: #ffffff76;
   }
   .text-cyan-50 {
     color: var(--color-cyan-50);
