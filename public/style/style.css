@@ -17,6 +17,7 @@
   height: auto;
   z-index: 0;
   transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 
 .video-overlay {
@@ -34,12 +35,6 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
-@media (max-width: 768px) {
-  .video-container {
-    height: 40vh;
-    /* Reduce height for smaller screens */
-  }
-}
 
 /* 
 .navbar-custom {
