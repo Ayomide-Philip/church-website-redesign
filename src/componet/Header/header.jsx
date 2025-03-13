@@ -91,10 +91,6 @@ export default function Header() {
                     className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50"
                   >
                     <div className="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                      {/* <item.icon
-                        aria-hidden="true"
-                        className="size-6 text-gray-600 group-hover:text-indigo-600"
-                      /> */}
                       <CIcon icon={item.icon} />
                     </div>
                     <div className="flex-auto">
