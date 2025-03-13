@@ -1,6 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "GBC",
+  "name": "Gateway Baptist Church",
+  "description": "Gateway Baptist Church is a community of believers in Christ who are committed to the gospel, to one another, and to the world.",
+  "lang": "en",
   "icons": [
     {
       "src": "favicon.ico",
