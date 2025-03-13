@@ -71,7 +71,7 @@ export default function Header() {
             <span className="sr-only">Your Company</span>
             <img
               alt=""
-              src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+              src="/images.ico"
               className="h-8 w-auto"
             />
           </a>
@@ -95,7 +95,7 @@ export default function Header() {
           </a>
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
-              Product
+              About Us
               <ChevronDownIcon
                 aria-hidden="true"
                 className="size-5 flex-none text-gray-400"
