@@ -69,11 +69,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="./#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img
-              alt=""
-              src="/images.ico"
-              className="h-8 w-auto"
-            />
+            <img alt="" src="/images.ico" className="h-8 w-auto" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -95,7 +91,7 @@ export default function Header() {
           </a>
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
-              About Us
+              Our Identity
               <ChevronDownIcon
                 aria-hidden="true"
                 className="size-5 flex-none text-gray-400"
@@ -188,7 +184,7 @@ export default function Header() {
                 </a>
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
-                    Product
+                    Our Identity
                     <ChevronDownIcon
                       aria-hidden="true"
                       className="size-5 flex-none group-data-open:rotate-180"
