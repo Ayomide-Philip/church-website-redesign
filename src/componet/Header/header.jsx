@@ -18,16 +18,16 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
-const products = [
+const ourIdentity = [
   {
     name: "Our History",
-    description: "Get a better understanding of your traffic",
+    description: "Know More About Us",
     href: "./#",
     icon: cilHistory,
   },
   {
     name: "Mission and Vission",
-    description: "Speak directly to your customers",
+    description: "Know more about Our Vision and Mission",
     href: "./#",
     icon: cilCompass,
   },
@@ -46,12 +46,12 @@ export default function Header() {
     <header className="bg-white">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between p-1 lg:px-8"
       >
         <div className="flex lg:flex-1">
           <a href="./#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img alt="" src="/images.ico" className="h-8 w-auto" />
+            <img alt="" src="/images/images.png" className="h-20 w-auto" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -64,13 +64,11 @@ export default function Header() {
             <Bars3Icon aria-hidden="true" className="size-6" />
           </button>
         </div>
-        <PopoverGroup className="hidden lg:flex lg:gap-x-12 lg:justify-end">
+        <PopoverGroup className="hidden lg:flex lg:gap-x-6 lg:justify-end">
           <a href="./#" className="text-sm/6 font-semibold text-gray-900">
             Home
           </a>
-          <a href="./#" className="text-sm/6 font-semibold text-gray-900">
-            Events
-          </a>
+
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
               Our Identity
@@ -85,7 +83,7 @@ export default function Header() {
               className="absolute top-full -left-8 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white ring-1 shadow-lg ring-gray-900/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
             >
               <div className="p-4">
-                {products.map((item) => (
+                {ourIdentity.map((item) => (
                   <div
                     key={item.name}
                     className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50"
@@ -108,6 +106,10 @@ export default function Header() {
               </div>
             </PopoverPanel>
           </Popover>
+
+          <a href="./#" className="text-sm/6 font-semibold text-gray-900">
+            Meet Our Leaders
+          </a>
 
           <a href="./#" className="text-sm/6 font-semibold text-gray-900">
             Features
@@ -155,7 +157,7 @@ export default function Header() {
                   href="./#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Events
+                  Meet Our Leaders
                 </a>
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
@@ -166,7 +168,7 @@ export default function Header() {
                     />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
-                    {[...products].map((item) => (
+                    {[...ourIdentity].map((item) => (
                       <DisclosureButton
                         key={item.name}
                         as="a"
