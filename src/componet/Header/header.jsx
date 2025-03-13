@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import CIcon from "@coreui/icons-react";
+import { cilHistory, cilBook, cilCompass } from "@coreui/icons";
 
 import {
   Dialog,
@@ -26,34 +28,28 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 const products = [
   {
-    name: "Analytics",
+    name: "Our History",
     description: "Get a better understanding of your traffic",
     href: "./#",
-    icon: ChartPieIcon,
+    icon: cilHistory,
   },
   {
-    name: "Engagement",
+    name: "Mission and Vission",
     description: "Speak directly to your customers",
     href: "./#",
-    icon: CursorArrowRaysIcon,
+    icon: cilCompass,
   },
   {
-    name: "Security",
+    name: "Our Beliefs",
     description: "Your customers’ data will be safe and secure",
     href: "./#",
-    icon: FingerPrintIcon,
+    icon: cilBook,
   },
   {
     name: "Integrations",
     description: "Connect with third-party tools",
     href: "./#",
     icon: SquaresPlusIcon,
-  },
-  {
-    name: "Automations",
-    description: "Build strategic funnels that will convert",
-    href: "./#",
-    icon: ArrowPathIcon,
   },
 ];
 
@@ -109,10 +105,11 @@ export default function Header() {
                     className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50"
                   >
                     <div className="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                      <item.icon
+                      {/* <item.icon
                         aria-hidden="true"
                         className="size-6 text-gray-600 group-hover:text-indigo-600"
-                      />
+                      /> */}
+                      <CIcon icon={item.icon} />
                     </div>
                     <div className="flex-auto">
                       <a
@@ -152,11 +149,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="./#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
-              />
+              <img alt="" src="/images.ico" className="h-8 w-auto" />
             </a>
             <button
               type="button"
