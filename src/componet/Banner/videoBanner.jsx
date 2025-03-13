@@ -1,6 +1,6 @@
 import React from "react";
 
-function VideoBanner() {
+function VideoBanner(props) {
   return (
     <div class="video-container">
       <video autoPlay muted loop>
@@ -9,7 +9,9 @@ function VideoBanner() {
       </video>
       <div class="video-overlay">
         <div>
-          <h1 class="text-6xl">Welcome to Our Church</h1>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl">
+            Welcome to Our Church
+          </h1>
           <p class="lead">Join us for worship and community</p>
         </div>
       </div>
