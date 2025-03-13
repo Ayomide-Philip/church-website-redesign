@@ -14,15 +14,7 @@ import {
   PopoverPanel,
 } from "@headlessui/react";
 
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
@@ -44,12 +36,6 @@ const products = [
     description: "Your customers’ data will be safe and secure",
     href: "./#",
     icon: cilBook,
-  },
-  {
-    name: "Integrations",
-    description: "Connect with third-party tools",
-    href: "./#",
-    icon: SquaresPlusIcon,
   },
 ];
 
