@@ -112,7 +112,7 @@ export default function Header() {
           </a>
 
           <a href="./#" className="text-sm/6 font-semibold text-gray-900">
-            Features
+            Join Us
           </a>
           <a href="./#" className="text-sm/6 font-semibold text-gray-900">
             Contact Us
@@ -185,7 +185,7 @@ export default function Header() {
                   href="./#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                  Join Us
                 </a>
                 <a
                   href="./#"
