@@ -23,6 +23,7 @@ export default function Page404() {
               Go back home
             </a>
           </div>
+          
         </div>
       </main>
     </>
