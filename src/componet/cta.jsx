@@ -43,6 +43,14 @@ export default function Cta() {
                 Our church is a place where faith and community converge,
                 forming the cornerstone of our identity.
               </p>
+              <p className="mt-6 text-lg/8 text-gray-600">
+                Join us as we worship together, study the Word, and engage in
+                meaningful fellowship. Experience the warmth of our community
+                and discover how faith can enrich your life. At Gateway Baptist
+                Church, you'll find not just a place of worship, but a family
+                ready to welcome you with open arms.
+              </p>
+
               {/* <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
