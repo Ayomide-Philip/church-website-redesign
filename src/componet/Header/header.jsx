@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import CIcon from "@coreui/icons-react";
-import { cilHistory, cilBook, cilCompass, cilChild } from "@coreui/icons";
+import {
+  cilHistory,
+  cilBook,
+  cilCompass,
+  cilChild,
+  cilPeople,
+} from "@coreui/icons";
 
 import {
   Dialog,
