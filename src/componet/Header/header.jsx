@@ -6,6 +6,7 @@ import {
   cilCompass,
   cilChild,
   cilPeople,
+  cilBookmark,
 } from "@coreui/icons";
 
 import {
@@ -60,16 +61,16 @@ const ministries = [
 ];
 const resources = [
   {
-    name: "Children Ministry",
-    description: "Take a look at our Children Ministry",
+    name: "Blog",
+    description: "Read our latest blog posts",
     href: "./#",
-    icon: cilChild,
+    icon: cilBookmark,
   },
   {
-    name: "Teenagers Ministry",
-    description: "Take a look at our Teenagers Ministry",
+    name: "Bible Study Materials",
+    description: "Read our bilble study materials",
     href: "./#",
-    icon: cilPeople,
+    icon: cilBook,
   },
 ];
 
@@ -311,16 +312,17 @@ export default function Header() {
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
+
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
-                    Ministries
+                    Resources
                     <ChevronDownIcon
                       aria-hidden="true"
                       className="size-5 flex-none group-data-open:rotate-180"
                     />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
-                    {[...ministries].map((item) => (
+                    {[...resources].map((item) => (
                       <DisclosureButton
                         key={item.name}
                         as="a"
