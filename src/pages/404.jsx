@@ -11,7 +11,7 @@ export default function Page404() {
             Page not found
           </h1>
 
-          <p className="mt-4 text-lg font-medium text-pretty text-violent-50 sm:text-xl/8">
+          <p className="mt-4 text-lg font-medium text-pretty text-slate-50 sm:text-xl/8">
             Sorry, we couldn’t find the page you’re looking for.
           </p>
 
@@ -23,7 +23,7 @@ export default function Page404() {
               Go back home
             </a>
           </div>
-          
+
         </div>
       </main>
     </>
