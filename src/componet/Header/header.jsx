@@ -46,10 +46,10 @@ const ministries = [
     icon: cilChild,
   },
   {
-    name: "Mission and Vission",
-    description: "Know more about Our Vision and Mission",
+    name: "Teenagers Ministry",
+    description: "Take a look at our Teenagers Ministry",
     href: "./#",
-    icon: cilCompass,
+    icon: cilPeople,
   },
 ];
 
