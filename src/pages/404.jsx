@@ -5,9 +5,9 @@ export default function Page404() {
       <Header />
       <main className="grid min-h-full place-items-center bg-zinc-600 px-6 py-24 sm:py-32 lg:px-8">
         <div className="text-center">
-          <p className="text-3xl font-semibold text-sky-500/100">404</p>
+          <p className="text-9xl font-black text-sky-500/100">404</p>
 
-          <h1 className="mt-3 text-5xl font-semibold tracking-tight text-balance text-white  sm:text-7xl">
+          <h1 className=" text-3xl font-bold tracking-tight  sm:text-4xl text-balance text-white ">
             Page not found
           </h1>
 
@@ -23,9 +23,27 @@ export default function Page404() {
               Go back home
             </a>
           </div>
-
         </div>
       </main>
     </>
   );
 }
+
+// <div className="grid h-screen place-content-center bg-white px-4">
+//   <div className="text-center">
+//     <h1 className="text-9xl font-black text-gray-200">404</h1>
+
+//     <p className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+//       Uh-oh!
+//     </p>
+
+//     <p className="mt-4 text-gray-500">We can't find that page.</p>
+
+//     <a
+//       href="#"
+//       className="mt-6 inline-block rounded-sm bg-indigo-600 px-5 py-3 text-sm font-medium text-white hover:bg-indigo-700 focus:ring-3 focus:outline-hidden"
+//     >
+//       Go Back Home
+//     </a>
+//   </div>
+// </div>;
