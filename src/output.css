@@ -13,6 +13,7 @@
     --color-blue-700: oklch(0.488 0.243 264.376);
     --color-indigo-500: oklch(0.585 0.233 277.117);
     --color-indigo-600: oklch(0.511 0.262 276.966);
+    --color-slate-50: oklch(0.984 0.003 247.858);
     --color-gray-50: oklch(0.985 0.002 247.839);
     --color-gray-400: oklch(0.707 0.022 261.325);
     --color-gray-500: oklch(0.551 0.027 264.364);
@@ -661,6 +662,9 @@
   }
   .text-sky-500\/100 {
     color: color-mix(in oklab, var(--color-sky-500) 100%, transparent);
+  }
+  .text-slate-50 {
+    color: var(--color-slate-50);
   }
   .text-white {
     color: var(--color-white);
