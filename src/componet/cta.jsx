@@ -8,14 +8,17 @@ export default function Cta() {
               <h2 className="text-base/7 font-semibold text-sky-500/100">
                 Welcome
               </h2>
+
               <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
                 Gateway Baptist Church: Where Faith Meets Community
               </p>
+
               <p className="mt-6 text-lg/8 text-gray-600">
                 At Gateway Baptist Church, we extend a heartfelt welcome to you.
                 Our church is a place where faith and community converge,
                 forming the cornerstone of our identity.
               </p>
+
               <p className="mt-6 text-lg/8 text-gray-600">
                 Join us as we worship together, study the Word, and engage in
                 meaningful fellowship. Experience the warmth of our community
@@ -23,7 +26,6 @@ export default function Cta() {
                 Church, you'll find not just a place of worship, but a family
                 ready to welcome you with open arms.
               </p>
-              
             </div>
           </div>
           <img
