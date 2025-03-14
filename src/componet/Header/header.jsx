@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CIcon from "@coreui/icons-react";
-import { cilHistory, cilBook, cilCompass } from "@coreui/icons";
+import { cilHistory, cilBook, cilCompass, cilChild } from "@coreui/icons";
 
 import {
   Dialog,
@@ -40,22 +40,16 @@ const ourIdentity = [
 ];
 const ministries = [
   {
-    name: "Our History",
-    description: "Know More About Us",
+    name: "Children Ministry",
+    description: "Take a look at our Children Ministry",
     href: "./#",
-    icon: cilHistory,
+    icon: cilChild,
   },
   {
     name: "Mission and Vission",
     description: "Know more about Our Vision and Mission",
     href: "./#",
     icon: cilCompass,
-  },
-  {
-    name: "Our Beliefs",
-    description: "Your customers’ data will be safe and secure",
-    href: "./#",
-    icon: cilBook,
   },
 ];
 
