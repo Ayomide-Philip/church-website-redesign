@@ -38,6 +38,26 @@ const ourIdentity = [
     icon: cilBook,
   },
 ];
+const ministries = [
+  {
+    name: "Our History",
+    description: "Know More About Us",
+    href: "./#",
+    icon: cilHistory,
+  },
+  {
+    name: "Mission and Vission",
+    description: "Know more about Our Vision and Mission",
+    href: "./#",
+    icon: cilCompass,
+  },
+  {
+    name: "Our Beliefs",
+    description: "Your customers’ data will be safe and secure",
+    href: "./#",
+    icon: cilBook,
+  },
+];
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -121,7 +141,7 @@ export default function Header() {
               className="absolute top-full -left-8 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white ring-1 shadow-lg ring-gray-900/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
             >
               <div className="p-4">
-                {ourIdentity.map((item) => (
+                {ministries.map((item) => (
                   <div
                     key={item.name}
                     className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50"
@@ -191,12 +211,7 @@ export default function Header() {
                 >
                   Home
                 </a>
-                <a
-                  href="./#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                >
-                  Meet Our Leaders
-                </a>
+
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
                     Our Identity
@@ -219,6 +234,34 @@ export default function Header() {
                   </DisclosurePanel>
                 </Disclosure>
 
+                <Disclosure as="div" className="-mx-3">
+                  <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
+                    Ministries
+                    <ChevronDownIcon
+                      aria-hidden="true"
+                      className="size-5 flex-none group-data-open:rotate-180"
+                    />
+                  </DisclosureButton>
+                  <DisclosurePanel className="mt-2 space-y-2">
+                    {[...ministries].map((item) => (
+                      <DisclosureButton
+                        key={item.name}
+                        as="a"
+                        href={item.href}
+                        className="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+                      >
+                        {item.name}
+                      </DisclosureButton>
+                    ))}
+                  </DisclosurePanel>
+                </Disclosure>
+
+                <a
+                  href="./#"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                >
+                  Meet Our Leaders
+                </a>
                 <a
                   href="./#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
