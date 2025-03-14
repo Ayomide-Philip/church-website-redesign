@@ -4,26 +4,26 @@ import {
   ServerIcon,
 } from "@heroicons/react/20/solid";
 
-const features = [
-  {
-    name: "Push to deploy.",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: "SSL certificates.",
-    description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-    icon: LockClosedIcon,
-  },
-  {
-    name: "Database backups.",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ServerIcon,
-  },
-];
+// const features = [
+//   {
+//     name: "Push to deploy.",
+//     description:
+//       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+//     icon: CloudArrowUpIcon,
+//   },
+//   {
+//     name: "SSL certificates.",
+//     description:
+//       "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+//     icon: LockClosedIcon,
+//   },
+//   {
+//     name: "Database backups.",
+//     description:
+//       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+//     icon: ServerIcon,
+//   },
+// ];
 
 export default function Cta() {
   return (
@@ -39,11 +39,11 @@ export default function Cta() {
                 Gateway Baptist Church: Where Faith Meets Community
               </p>
               <p className="mt-6 text-lg/8 text-gray-600">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                At Gateway Baptist Church, we extend a heartfelt welcome to you.
+                Our church is a place where faith and community converge,
+                forming the cornerstone of our identity.
               </p>
-              <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
+              {/* <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
@@ -56,7 +56,7 @@ export default function Cta() {
                     <dd className="inline">{feature.description}</dd>
                   </div>
                 ))}
-              </dl>
+              </dl> */}
             </div>
           </div>
           <img
