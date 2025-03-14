@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../componet/Header/header";
 import VideoBanner from "../componet/Banner/videoBanner";
-import Cta from "../componet/cta";
+import Cta from "../componet/Home/cta";
+import Team from "../componet/Home/team";
 export default function Home() {
   return (
     <div>
@@ -11,6 +12,7 @@ export default function Home() {
         subtitle="... Community of Grace."
       />
       <Cta />
+      <Team />
     </div>
   );
 }
