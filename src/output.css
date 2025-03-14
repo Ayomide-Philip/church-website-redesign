@@ -443,6 +443,9 @@
   .min-h-full {
     min-height: 100%;
   }
+  .w-\[40rem\] {
+    width: 40rem;
+  }
   .w-\[48rem\] {
     width: 48rem;
   }
