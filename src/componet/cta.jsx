@@ -33,10 +33,10 @@ export default function Cta() {
           <div className="lg:pt-4 lg:pr-8">
             <div className="lg:max-w-lg">
               <h2 className="text-base/7 font-semibold text-indigo-600">
-              Welcome
+                Welcome
               </h2>
-              <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-                A better workflow
+              <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
+                Gateway Baptist Church: Where Faith Meets Community
               </p>
               <p className="mt-6 text-lg/8 text-gray-600">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
