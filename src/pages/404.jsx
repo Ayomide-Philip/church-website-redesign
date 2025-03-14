@@ -5,14 +5,14 @@ export default function Page404() {
       <Header />
       <main className="grid min-h-full place-items-center bg-zinc-600 px-6 py-24 sm:py-32 lg:px-8">
         <div className="text-center">
-          
+
           <p className="text-3xl font-semibold text-sky-500/100">404</p>
 
           <h1 className="mt-3 text-5xl font-semibold tracking-tight text-balance text-white  sm:text-7xl">
             Page not found
           </h1>
 
-          <p className="mt-6 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
+          <p className="mt-6 text-lg font-medium text-pretty text-violent-50 sm:text-xl/8">
             Sorry, we couldn’t find the page you’re looking for.
           </p>
 
