@@ -19,9 +19,15 @@ const faq = [
   },
   {
     index: 3,
-    heading: " In Justification by Faith",
+    heading: "In Justification by Faith",
     content:
       "We believe that salvation is by grace alone , through faith in Jesus Christ alone, and not by our own works or merit. Salvation is a gift of God's grace, received through faith in Jesus Christ. It is not earned through good works or human effort but is freely given to all who believe in Christ as Savior and Lord.",
+  },
+  {
+    index: 4,
+    heading: "In the Holy Spirit",
+    content:
+      "We believe in the personhood and work of the Holy Spirit , who convicts of sin, regenerates, indwells, and empowers believers for Christian life and service.The Holy Spirit is the third person of the Trinity, who dwells within every believer, empowering them for Christian living, guiding them into truth, and equipping them with spiritual gifts for ministry.",
   },
 ];
 
