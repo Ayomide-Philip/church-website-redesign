@@ -20,6 +20,7 @@ function AppRouting() {
       <Route path="/donate" element={<CommingSoon />} />
       <Route path="/bibleStudyMaterial" element={<CommingSoon />} />
       <Route path="/leaders" element={<CommingSoon />} />
+      <Route path="/joinus" element={<CommingSoon />} />
       <Route path="*" element={<Page404 />} />
     </Routes>
   );
