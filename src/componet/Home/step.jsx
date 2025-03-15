@@ -23,9 +23,9 @@ const step = [
 export default function Step() {
   return (
     <section class="text-gray-400 bg-gray-900 body-font">
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="container px-5 py-10 mx-auto flex flex-wrap">
         <div class="flex flex-col text-center w-full mb-5">
-          <h1 class="text-3xl font-medium title-font mb-4 text-white tracking-widest">
+          <h1 class="text-3xl font-extrabold title-font mb-4 text-white tracking-widest">
             5 Powerful Steps to Give Your Life to Christ and Transform Your
             Future
           </h1>
