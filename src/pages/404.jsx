@@ -1,4 +1,5 @@
 import Header from "../componet/Header/header";
+import Footer from "../componet/Footer/footer";
 export default function Page404() {
   return (
     <>
@@ -23,9 +24,9 @@ export default function Page404() {
               Go back home
             </a>
           </div>
-          
         </div>
       </main>
+      <Footer />
     </>
   );
 }
