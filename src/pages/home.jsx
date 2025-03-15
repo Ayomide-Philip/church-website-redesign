@@ -7,6 +7,7 @@ import Explore from "../componet/Home/explore";
 import Step from "../componet/Home/step";
 import Faq from "../componet/Home/faq";
 import Contact from "../componet/Home/contact";
+import Footer from "../componet/Footer/footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Step />
       <Faq />
       <Contact />
+      <Footer />
     </div>
   );
 }
