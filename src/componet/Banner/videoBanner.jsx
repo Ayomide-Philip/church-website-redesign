@@ -4,7 +4,8 @@ function VideoBanner(props) {
   return (
     <div class="video-container">
       <video autoPlay muted loop>
-        <source src="/videos/3373659-hd_1920_1080_24fps.mp4" type="video/mp4" />
+     
+        <source src={`/videos/${props.video}.mp4`} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div class="video-overlay">
