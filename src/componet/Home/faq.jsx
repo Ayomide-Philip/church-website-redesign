@@ -35,6 +35,12 @@ const faq = [
     content:
       "We believe in the universal Church, the body of Christ, composed of all believers, and in the local church as a community of faith and fellowship for worship, edification, and mission. The Church is the community of all believers worldwide, united by their faith in Jesus Christ. Local churches gather for worship, teaching, mutual support, and to fulfill the Great Commission.",
   },
+  {
+    index: 5,
+    heading: "In the Great Commission",
+    content:
+      "We believe in the mandate given by Jesus Christ to make disciples of all nations, proclaiming the gospel and demonstrating God’s love through acts of compassion and justice.Jesus commissioned His followers to spread the gospel, making disciples of all nations by proclaiming His message of salvation and demonstrating His love through compassionate service and advocacy for justice.",
+  },
 ];
 
 export default function Faq() {
