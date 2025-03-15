@@ -35,13 +35,13 @@ const ourIdentity = [
   {
     name: "Mission and Vission",
     description: "Know more about Our Vision and Mission",
-    href: "./#",
+    href: "/missionandvission",
     icon: cilCompass,
   },
   {
     name: "Our Beliefs",
     description: "Your customers’ data will be safe and secure",
-    href: "./#",
+    href: "/beliefs",
     icon: cilBook,
   },
 ];
@@ -49,13 +49,13 @@ const ministries = [
   {
     name: "Children Ministry",
     description: "Take a look at our Children Ministry",
-    href: "./#",
+    href: "/childrenMinistry",
     icon: cilChild,
   },
   {
     name: "Teenagers Ministry",
     description: "Take a look at our Teenagers Ministry",
-    href: "./#",
+    href: "/teenagerMinistry",
     icon: cilPeople,
   },
 ];
@@ -63,13 +63,13 @@ const resources = [
   {
     name: "Blog",
     description: "Read our latest blog posts",
-    href: "./#",
+    href: "/blog",
     icon: cilBookmark,
   },
   {
     name: "Bible Study Materials",
     description: "Read our bilble study materials",
-    href: "./#",
+    href: "/bibleStudyMaterial",
     icon: cilBook,
   },
 ];
