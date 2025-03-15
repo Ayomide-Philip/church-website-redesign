@@ -6,7 +6,11 @@ export default function History() {
   return (
     <>
       <Header />
-      <VideoBanner video="history-video" />
+      <VideoBanner
+        video="history-video"
+        title="The Church In the Historical Perspective."
+        subtitle="Learn more about our church history."
+      />
       <Footer />
     </>
   );
