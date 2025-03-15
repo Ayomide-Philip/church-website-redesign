@@ -1,10 +1,12 @@
 const faq = [
   {
+    index: 0,
     heading: "Lorem ipsum dolor sit amet consectetur adipisicing?",
     content:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!",
   },
   {
+    index: 1,
     heading: "Lorem ipsum dolor sit amet consectetur adipisicing?",
     content:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!",
@@ -16,7 +18,10 @@ export default function Faq() {
     <div className="space-y-4 pl-10 pr-10 pt-10 pb-10">
       {faq.map((faq) => {
         return (
-          <details className="group border-s-4 border-blue-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+          <details
+            className="group border-s-4 border-blue-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+            open={faq.index === 0 ? true : false}
+          >
             <summary className="flex cursor-pointer items-center justify-between gap-1.5">
               <h2 className="text-lg font-medium text-gray-900">
                 {faq.heading}
