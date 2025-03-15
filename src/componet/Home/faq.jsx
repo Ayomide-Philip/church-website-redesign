@@ -29,6 +29,12 @@ const faq = [
     content:
       "We believe in the personhood and work of the Holy Spirit , who convicts of sin, regenerates, indwells, and empowers believers for Christian life and service.The Holy Spirit is the third person of the Trinity, who dwells within every believer, empowering them for Christian living, guiding them into truth, and equipping them with spiritual gifts for ministry.",
   },
+  {
+    index: 5,
+    heading: "In the Church",
+    content:
+      "We believe in the universal Church, the body of Christ, composed of all believers, and in the local church as a community of faith and fellowship for worship, edification, and mission. The Church is the community of all believers worldwide, united by their faith in Jesus Christ. Local churches gather for worship, teaching, mutual support, and to fulfill the Great Commission.",
+  },
 ];
 
 export default function Faq() {
