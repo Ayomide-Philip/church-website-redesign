@@ -28,7 +28,7 @@ const explore = [
 export default function Explore() {
   return (
     <section class="text-gray-600 body-font">
-      <div class="container px-5 py-5 mx-auto">
+      <div class="container px-5 py-10 mx-auto">
         <div class="flex flex-col text-center w-full mb-5">
           <h1 class="text-3xl font-medium title-font mb-4 text-black tracking-widest">
             Explore Our Church
