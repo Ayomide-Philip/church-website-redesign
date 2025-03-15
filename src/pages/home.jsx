@@ -6,6 +6,7 @@ import Team from "../componet/Home/team";
 import Explore from "../componet/Home/explore";
 import Step from "../componet/Home/step";
 import Faq from "../componet/Home/faq";
+
 export default function Home() {
   return (
     <div>
