@@ -1,11 +1,10 @@
 export default function Contact() {
   return (
-    <section class="text-gray-600 body-font relative my-10 pt-5">
+    <section class="text-gray-600 body-font relative pt-5">
       <div class="absolute inset-0 bg-gray-300">
         <iframe
           width="100%"
           height="100%"
-          //   style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
           frameborder="0"
           marginheight="0"
           marginwidth="0"
