@@ -46,6 +46,11 @@ const faq = [
 export default function Faq() {
   return (
     <div className="space-y-4 pl-10 pr-10 pt-10 pb-10">
+      <div class="flex flex-col text-center w-full mb-5">
+        <h1 class="text-3xl font-medium title-font mb-4 text-black tracking-widest">
+          Statement Of Faith
+        </h1>
+      </div>
       {faq.map((faq) => {
         return (
           <details
