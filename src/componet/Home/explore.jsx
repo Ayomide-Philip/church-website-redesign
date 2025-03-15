@@ -12,7 +12,7 @@ const explore = [
     category: "Our Identity",
     title: "Mission of The Church",
     description:
-      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+      "Founded years ago, our church has grown through dedication, faith, and service, impacting countless lives within the community and beyond.",
     link: "./#",
   },
   {
