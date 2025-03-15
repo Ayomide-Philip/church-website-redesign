@@ -3,6 +3,7 @@ import Header from "../componet/Header/header";
 import VideoBanner from "../componet/Banner/videoBanner";
 import Cta from "../componet/Home/cta";
 import Team from "../componet/Home/team";
+import Explore from "../componet/Home/explore";
 export default function Home() {
   return (
     <div>
@@ -13,6 +14,7 @@ export default function Home() {
       />
       <Cta />
       <Team />
+      <Explore />
     </div>
   );
 }
