@@ -2,7 +2,7 @@ export default function Faq() {
   return (
     <div className="space-y-4 pl-10 pr-10 pt-10 pb-10">
       <details
-        className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+        className="group border-s-4 border-blue-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
         open
       >
         <summary className="flex cursor-pointer items-center justify-between gap-1.5">
@@ -34,7 +34,7 @@ export default function Faq() {
         </p>
       </details>
 
-      <details className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <details className="group border-s-4 border-blue-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
         <summary className="flex cursor-pointer items-center justify-between gap-1.5">
           <h2 className="text-lg font-medium text-gray-900">
             Lorem ipsum dolor sit amet consectetur adipisicing?
