@@ -1,15 +1,21 @@
 const faq = [
   {
     index: 0,
-    heading: "Lorem ipsum dolor sit amet consectetur adipisicing?",
+    heading: "In the Triune God",
     content:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!",
+      "We believe in one God, eternally existing in three persons: Father, Son, and Holy Spirit, each fully God yet distinct in role and function.We affirm the biblical teaching  that God is one essence existing in three distinct persons. The Father, Son (Jesus Christ), and Holy Spirit are co-eternal and co-equal, each playing a unique role in creation, redemption, and sustaining the universe.",
   },
   {
     index: 1,
-    heading: "Lorem ipsum dolor sit amet consectetur adipisicing?",
+    heading: "In The Autority of The Scripture.",
     content:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!",
+      "We believe the Bible is the inspired and authoritative Word of God, revealing God’s will, character, and plan for humanity.Scripture is the divinely inspired record of God's revelation to humanity. It is authoritative in all matters of faith, doctrine, and practice, providing guidance for living a life pleasing to God. ",
+  },
+  {
+    index: 2,
+    heading: " In Salvation through Jesus Christ",
+    content:
+      "We believe in the deity of Jesus Christ, His virgin birth, sinless life, atoning death on the cross, bodily resurrection, ascension to heaven, and future return in power and glory. Jesus Christ, as fully God and fully human, lived a sinless life and sacrificed Himself on the cross to atone for the sins of humanity. Through faith in Christ, we receive forgiveness of sins and eternal life. ",
   },
 ];
 
