@@ -6,7 +6,7 @@ export default function History() {
   return (
     <>
       <Header />
-
+      <VideoBanner video="history-video" />
       <Footer />
     </>
   );
