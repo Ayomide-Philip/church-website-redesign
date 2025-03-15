@@ -12,6 +12,14 @@ function AppRouting() {
       <Route path="/" element={<Home />} />
       <Route path="/history" element={<History />} />
       <Route path="/missionandvission" element={<CommingSoon />} />
+      <Route path="/beliefs" element={<CommingSoon />} />
+      <Route path="/childrenMinistry" element={<CommingSoon />} />
+      <Route path="/teenagerMinistry" element={<CommingSoon />} />
+      <Route path="/blog" element={<CommingSoon />} />
+      <Route path="/contact" element={<CommingSoon />} />
+      <Route path="/donate" element={<CommingSoon />} />
+      <Route path="/bibleStudyMaterial" element={<CommingSoon />} />
+      <Route path="/leaders" element={<CommingSoon />} />
       <Route path="*" element={<Page404 />} />
     </Routes>
   );
