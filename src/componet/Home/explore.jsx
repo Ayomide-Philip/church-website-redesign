@@ -1,8 +1,24 @@
 const explore = [
   {
     images: "history",
-    category: "CATEGORY",
-    title: "The Catalyzer",
+    category: "Our Identity",
+    title: "History of The Church",
+    description:
+      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+    link: "./#",
+  },
+  {
+    images: "mission",
+    category: "Our Identity",
+    title: "Mission of The Church",
+    description:
+      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+    link: "./#",
+  },
+  {
+    images: "donate-pic",
+    category: "Donation",
+    title: "Donation to The Church",
     description:
       "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
     link: "./#",
