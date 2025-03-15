@@ -222,17 +222,17 @@ export default function Header() {
             </PopoverPanel>
           </Popover>
 
-          <a href="./#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="/leaders" className="text-sm/6 font-semibold text-gray-900">
             Meet Our Leaders
           </a>
 
-          <a href="./#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="/joinus" className="text-sm/6 font-semibold text-gray-900">
             Join Us
           </a>
-          <a href="./#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="/contact" className="text-sm/6 font-semibold text-gray-900">
             Contact Us
           </a>
-          <a href="./#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="/donate" className="text-sm/6 font-semibold text-gray-900">
             Donate
           </a>
         </PopoverGroup>
