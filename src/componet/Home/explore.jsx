@@ -4,7 +4,7 @@ const explore = [
     category: "Our Identity",
     title: "History of The Church",
     description:
-      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+      "Our church's mission is to spread faith, love, and hope, guiding people toward spiritual growth and a deeper connection with God.",
     link: "./#",
   },
   {
