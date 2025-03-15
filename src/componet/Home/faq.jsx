@@ -17,6 +17,12 @@ const faq = [
     content:
       "We believe in the deity of Jesus Christ, His virgin birth, sinless life, atoning death on the cross, bodily resurrection, ascension to heaven, and future return in power and glory. Jesus Christ, as fully God and fully human, lived a sinless life and sacrificed Himself on the cross to atone for the sins of humanity. Through faith in Christ, we receive forgiveness of sins and eternal life. ",
   },
+  {
+    index: 3,
+    heading: " In Salvation through Jesus Christ",
+    content:
+      "We believe in the deity of Jesus Christ, His virgin birth, sinless life, atoning death on the cross, bodily resurrection, ascension to heaven, and future return in power and glory. Jesus Christ, as fully God and fully human, lived a sinless life and sacrificed Himself on the cross to atone for the sins of humanity. Through faith in Christ, we receive forgiveness of sins and eternal life. ",
+  },
 ];
 
 export default function Faq() {
