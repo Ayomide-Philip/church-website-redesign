@@ -1,6 +1,6 @@
 export default function Faq() {
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 pl-10 pr-10 pt-10 pb-10">
       <details
         className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
         open
