@@ -21,7 +21,7 @@ export default function Contact() {
           <p class="leading-relaxed mb-5 text-gray-600">
             Write us a message and we will get back to you as soon as possible.
           </p>
-          <form action="">
+          <form action="https://formspree.io/f/moveqgar" method="POST">
             <div class="relative mb-4">
               <label for="email" class="leading-7 text-sm text-gray-600">
                 Email
