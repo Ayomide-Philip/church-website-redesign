@@ -4,6 +4,7 @@ import VideoBanner from "../componet/Banner/videoBanner";
 import Cta from "../componet/Home/cta";
 import Team from "../componet/Home/team";
 import Explore from "../componet/Home/explore";
+import Step from "../componet/Home/step";
 export default function Home() {
   return (
     <div>
@@ -15,6 +16,7 @@ export default function Home() {
       <Cta />
       <Team />
       <Explore />
+      <Step />
     </div>
   );
 }
