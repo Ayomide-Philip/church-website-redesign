@@ -6,6 +6,7 @@ import Team from "../componet/Home/team";
 import Explore from "../componet/Home/explore";
 import Step from "../componet/Home/step";
 import Faq from "../componet/Home/faq";
+import Contact from "../componet/Home/contact";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Explore />
       <Step />
       <Faq />
+      <Contact />
     </div>
   );
 }
