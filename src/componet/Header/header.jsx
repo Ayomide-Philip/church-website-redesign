@@ -29,7 +29,7 @@ const ourIdentity = [
   {
     name: "Our History",
     description: "Know More About Us",
-    href: "./#",
+    href: "/history",
     icon: cilHistory,
   },
   {
