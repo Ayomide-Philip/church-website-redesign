@@ -7,23 +7,23 @@ const team = [
       "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
   },
   {
-    name: "Alper Kamu",
+    name: "Rev. Dr. Wuyi Oke",
     role: "Designer",
     image: "assistantSeniorRved",
     description:
       "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
   },
   {
-    name: "Atticus Finch",
-    role: "UI Developer",
-    image: "rvedMiss",
+    name: "Rev. Dr. Damola Adeyefa",
+    role: "Designer",
+    image: "englishRved",
     description:
       "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
   },
   {
-    name: "Henry Letham",
-    role: "Designer",
-    image: "https://dummyimage.com/206x206",
+    name: "Rev. Miss Florence  Adedeji",
+    role: "UI Developer",
+    image: "rvedMiss",
     description:
       "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
   },
@@ -38,9 +38,10 @@ export default function Team() {
             OUR TEAM
           </h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them.
+            Our church team is a dedicated group of pastors, leaders, and
+            volunteers committed to serving God and our community. With faith,
+            love, and unity, we work together to inspire, support, and guide
+            others in their spiritual journey.
           </p>
         </div>
         <div class="flex flex-wrap -m-4">
@@ -64,7 +65,6 @@ export default function Team() {
               </div>
             );
           })}
-         
         </div>
       </div>
     </section>
