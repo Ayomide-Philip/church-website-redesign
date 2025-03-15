@@ -66,7 +66,7 @@ export default function Team() {
             );
           })}
         </div>
-        <button class="flex mx-auto mt-10 text-white bg-black border-0 py-2 px-10 focus:outline-none hover:bg-white hover:text-black rounded text-lg">
+        <button class="flex mx-auto mt-10 text-black bg-white border-0 py-2 px-10 focus:outline-none hover:bg-black hover:text-white rounded text-lg">
           Meet The Team
         </button>
       </div>
