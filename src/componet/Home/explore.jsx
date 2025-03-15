@@ -20,7 +20,7 @@ const explore = [
     category: "Donation",
     title: "Donation to The Church",
     description:
-      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+      "Generous donations help sustain our ministries, support the needy, and expand our outreach efforts, making a lasting difference in people’s lives.",
     link: "./#",
   },
 ];
