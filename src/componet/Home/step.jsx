@@ -24,7 +24,12 @@ export default function Step() {
   return (
     <section class="text-gray-400 bg-gray-900 body-font">
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
-        
+        <div class="flex flex-col text-center w-full mb-5">
+          <h1 class="text-3xl font-medium title-font mb-4 text-white tracking-widest">
+            5 Powerful Steps to Give Your Life to Christ and Transform Your
+            Future
+          </h1>
+        </div>
         <div class="flex flex-wrap w-full">
           <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
             {step.map((steps) => {
@@ -85,7 +90,7 @@ export default function Step() {
           </div>
           <img
             class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
-            src="https://dummyimage.com/1200x500"
+            src="/images/step.jpg"
             alt="step"
           />
         </div>
