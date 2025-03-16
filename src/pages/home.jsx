@@ -52,7 +52,6 @@ export default function Home() {
 
   return (
     <div>
-     
       {isInstallButtonVisible && (
         <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
           <div
@@ -81,7 +80,7 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
             <p className="text-sm/6 text-gray-900">
-              <strong className="font-semibold">GeneriCon 2023</strong>
+              <strong className="font-semibold">Install</strong>
               <svg
                 viewBox="0 0 2 2"
                 aria-hidden="true"
@@ -89,7 +88,8 @@ export default function Home() {
               >
                 <circle r={1} cx={1} cy={1} />
               </svg>
-              Join us in Denver from June 7 – 9 to see what’s coming next.
+              The Gateway Baptist Church app on your device for a better
+              experience.
             </p>
             <button
               id="install-button"
