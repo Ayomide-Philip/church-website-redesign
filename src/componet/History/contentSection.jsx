@@ -102,36 +102,15 @@ export default function ContentSection() {
                     </li>
                   );
                 })}
-                {/* <li className="flex gap-x-1">
-                  <ArrowLongRightIcon
-                    aria-hidden="true"
-                    className="mt-1 size-5 flex-none text-indigo-600"
-                  />
-                  <span>
-                    <strong className="font-semibold text-gray-900">
-                      Agugu.
-                    </strong>
-                  </span>
-                </li>
-
-                <li className="flex gap-x-3">
-                  <ArrowLongRightIcon
-                    aria-hidden="true"
-                    className="mt-1 size-5 flex-none text-indigo-600"
-                  />
-                  <span>
-                    <strong className="font-semibold text-gray-900">
-                      Oba-Oloke.
-                    </strong>
-                  </span>
-                </li> */}
               </ul>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
+                Of the place mapped out, the only place the RIEL Club succeeded
+                in planting a church at that time was Sanngo.The church was the
+                first church to be established at the area Sanngo and environs.
+                The initial church service was held at Late Pa. James Alabis
+                house. The host was popularly known as 'Baba Ikaramu'. Baba
+                Ikaramu house was located opposite the Nigerian Railway line,
+                Bodija Housing Estate, Sanngo-Elewure, Ibadan.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
                 No server? No problem.
