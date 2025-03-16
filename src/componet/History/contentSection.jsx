@@ -1,8 +1,4 @@
-import {
-  LockClosedIcon,
-  ServerIcon,
-  ArrowLongRightIcon,
-} from "@heroicons/react/20/solid";
+import { ArrowLongRightIcon } from "@heroicons/react/20/solid";
 
 export default function ContentSection() {
   return (
@@ -68,7 +64,7 @@ export default function ContentSection() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base/7 text-gray-700 lg:max-w-lg">
-              <p className="mt-6 text-xl/7 text-gray-700">
+              <p className="mt-3 text-xl/8 text-gray-700">
                 Some members of the club included Mr. Oladipo, Mr. A.O
                 Fakorede(now Deacon Fakorede, Former president of Deacons
                 fellowship of the Convection), Mr. A.B Farinde, Miss Bimpe
@@ -76,15 +72,15 @@ export default function ContentSection() {
                 D.O Amoo(Now Deacon) and late Dn. S.O Lawore. Members of this
                 club became evangelism team of the church.
               </p>
-              <p className="mt-6 text-xl/8 text-gray-700">
+              <p className="mt-3 text-xl/8 text-gray-700">
                 Mr. Solomon Akintola Aderounmu, a member of the church working
                 with the Ministry of Lands and Survey at the Government
                 Secretariat, Agodi, Ibadan, was assigned responsibilities of
                 mapping out the city of Ibadan and to identify where church
                 could be planted. Places identified were:
               </p>
-              <ul className="mt-8 space-y-8 text-gray-600">
-                <li className="flex gap-x-3">
+              <ul className="mt-8 space-y-5 text-gray-600">
+                <li className="flex gap-x-1">
                   <ArrowLongRightIcon
                     aria-hidden="true"
                     className="mt-1 size-5 flex-none text-indigo-600"
@@ -95,8 +91,9 @@ export default function ContentSection() {
                     </strong>
                   </span>
                 </li>
+
                 <li className="flex gap-x-3">
-                  <LockClosedIcon
+                  <ArrowLongRightIcon
                     aria-hidden="true"
                     className="mt-1 size-5 flex-none text-indigo-600"
                   />
@@ -109,7 +106,7 @@ export default function ContentSection() {
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <ServerIcon
+                  <ArrowLongRightIcon
                     aria-hidden="true"
                     className="mt-1 size-5 flex-none text-indigo-600"
                   />
