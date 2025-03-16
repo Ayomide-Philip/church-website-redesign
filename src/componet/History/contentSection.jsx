@@ -42,9 +42,6 @@ export default function ContentSection() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
-              {/* <p className="text-base/7 font-semibold text-indigo-600">
-                Deploy faster
-              </p> */}
               <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
                 Founding and Establishing the Church.
               </h1>
@@ -71,7 +68,7 @@ export default function ContentSection() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base/7 text-gray-700 lg:max-w-lg">
-              <p>
+              <p className="mt-6 text-xl/7 text-gray-700">
                 Some members of the club included Mr. Oladipo, Mr. A.O
                 Fakorede(now Deacon Fakorede, Former president of Deacons
                 fellowship of the Convection), Mr. A.B Farinde, Miss Bimpe
@@ -79,7 +76,7 @@ export default function ContentSection() {
                 D.O Amoo(Now Deacon) and late Dn. S.O Lawore. Members of this
                 club became evangelism team of the church.
               </p>
-              <p>
+              <p className="mt-6 text-xl/8 text-gray-700">
                 Mr. Solomon Akintola Aderounmu, a member of the church working
                 with the Ministry of Lands and Survey at the Government
                 Secretariat, Agodi, Ibadan, was assigned responsibilities of
