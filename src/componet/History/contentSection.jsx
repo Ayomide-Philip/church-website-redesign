@@ -125,6 +125,16 @@ export default function ContentSection() {
                 Planning Authority approve the proposed building plan for the
                 church.
               </p>
+              <p className="mt-3 text-xl/8 text-gray-700">
+                When the church was growing with increasing number of
+                worshippers, the late Deacon Amos Jolaade Adegun was deployed
+                from the mother church to succeed late Deacon Lawore, as the
+                leader of the church. However, Chief M.O Ogunnowo and other
+                church members worked tirelessly to sustain the the progress
+                achieved then in the church. It would also be necessary here to
+                mention that love had been existing in Gateway Baptist Church
+                for a long time ago.
+              </p>
 
               {/* <p className="mt-6">
                 Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
