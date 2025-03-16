@@ -2,6 +2,7 @@ import Header from "../componet/Header/header";
 import Footer from "../componet/Footer/footer";
 import VideoBanner from "../componet/Banner/videoBanner";
 import FoundingandEstablishing from "../componet/History/contentSection";
+import WhyNameGateway from "../componet/History/whyNameGateway";
 export default function History() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function History() {
         subtitle="Learn more about our church history."
       />
       <FoundingandEstablishing />
+      <WhyNameGateway />
       <Footer />
     </>
   );
