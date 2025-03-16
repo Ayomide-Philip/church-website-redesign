@@ -21,20 +21,13 @@ export default function WhyNameGateway() {
               salvation as well as, break-through, success, miracles, blessings,
               redemption and long life and prosperity.
             </p>
-            <h3 class="text-2xl font-bold my-5">
-              Why the name was "Gateway" Baptist Church?
-            </h3>
+            <h3 class="text-2xl font-bold my-5">The Pioneer Worshippers:</h3>
             <p class="text-base leading-8 my-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Among the lots of worshippers at the inception of Gateway Baptist
+              Church in 1960 were Pa James Alabi, Madam Towobola Babalola, Iya
+              Ijesa Janet, Madam Emily Lakunbi, Papa Ila Alabi, Pa. Michael
+              Ogunlana, Pa Matthew Adeniran and Pa. Bamidele. Majority of them
+              are now of blessed memory.
             </p>
           </div>
         </div>
