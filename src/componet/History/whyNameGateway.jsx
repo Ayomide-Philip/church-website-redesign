@@ -21,11 +21,9 @@ export default function WhyNameGateway() {
               salvation as well as, break-through, success, miracles, blessings,
               redemption and long life and prosperity.
             </p>
-            <blockquote class="text-md italic leading-8 my-5 p-5 text-indigo-600 font-semibold">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
-            </blockquote>
+            <h3 class="text-2xl font-bold my-5">
+              Why the name was "Gateway" Baptist Church?
+            </h3>
             <p class="text-base leading-8 my-5">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
