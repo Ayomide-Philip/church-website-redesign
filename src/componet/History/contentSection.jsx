@@ -103,7 +103,7 @@ export default function ContentSection() {
                   );
                 })}
               </ul>
-              <p className="mt-8">
+              <p className="mt-3 text-xl/8 text-gray-700">
                 Of the place mapped out, the only place the RIEL Club succeeded
                 in planting a church at that time was Sanngo.The church was the
                 first church to be established at the area Sanngo and environs.
@@ -112,10 +112,21 @@ export default function ContentSection() {
                 Ikaramu house was located opposite the Nigerian Railway line,
                 Bodija Housing Estate, Sanngo-Elewure, Ibadan.
               </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                No server? No problem.
-              </h2>
-              <p className="mt-6">
+              <p className="mt-3 text-xl/8 text-gray-700">
+                Soon after the church premises got acquired by the Government of
+                Western Region. Thus, the church moved to Baba Ikaramus (Pa.
+                James Alabis) house. The house was near the Railway Staff
+                Headquaters, Sanngo Ibadan. When the number of the worshippers
+                increased significantly, a tent was erected very close to the
+                present church building. However, within three years, a move was
+                made to dispose of the piece of Lands. The entire members
+                contributed money to purchase the land. A small building was
+                erected through communal labour when the Western Nigeria Town
+                Planning Authority approve the proposed building plan for the
+                church.
+              </p>
+
+              {/* <p className="mt-6">
                 Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
                 consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod
                 vitae interdum mauris enim, consequat vulputate nibh. Maecenas
@@ -123,6 +134,14 @@ export default function ContentSection() {
                 enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
                 turpis ipsum eu a sed convallis diam.
               </p>
+              <p className="mt-6">
+                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
+                consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod
+                vitae interdum mauris enim, consequat vulputate nibh. Maecenas
+                pellentesque id sed tellus mauris, ultrices mauris. Tincidunt
+                enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
+                turpis ipsum eu a sed convallis diam.
+              </p> */}
             </div>
           </div>
         </div>
