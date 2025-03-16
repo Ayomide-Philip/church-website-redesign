@@ -1,7 +1,7 @@
 import {
-  CloudArrowUpIcon,
   LockClosedIcon,
   ServerIcon,
+  ArrowLongRightIcon,
 } from "@heroicons/react/20/solid";
 
 export default function ContentSection() {
@@ -63,7 +63,7 @@ export default function ContentSection() {
         </div>
         <div className="-mt-12 -ml-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
-            alt=""
+            alt="history"
             src="/images/history.jpg"
             className="w-[48rem] max-w-none rounded-xl bg-gray-900 ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem]"
           />
@@ -72,23 +72,30 @@ export default function ContentSection() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base/7 text-gray-700 lg:max-w-lg">
               <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                Id dolor praesent donec est. Odio penatibus risus viverra tellus
-                varius sit neque erat velit. Faucibus commodo massa rhoncus,
-                volutpat. Dignissim sed eget risus enim. Mattis mauris semper
-                sed amet vitae sed turpis id.
+                Some members of the club included Mr. Oladipo, Mr. A.O
+                Fakorede(now Deacon Fakorede, Former president of Deacons
+                fellowship of the Convection), Mr. A.B Farinde, Miss Bimpe
+                Atanda(now Mrs. Adigun), Mr. Johnson Ogundele, Mr. Afuwape, Mr.
+                D.O Amoo(Now Deacon) and late Dn. S.O Lawore. Members of this
+                club became evangelism team of the church.
               </p>
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+              <p>
+                Mr. Solomon Akintola Aderounmu, a member of the church working
+                with the Ministry of Lands and Survey at the Government
+                Secretariat, Agodi, Ibadan, was assigned responsibilities of
+                mapping out the city of Ibadan and to identify where church
+                could be planted. Places identified were:
+              </p>
+              <ul className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <CloudArrowUpIcon
+                  <ArrowLongRightIcon
                     aria-hidden="true"
                     className="mt-1 size-5 flex-none text-indigo-600"
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
                       Push to deploy.
-                    </strong>{" "}
+                    </strong>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Maiores impedit perferendis suscipit eaque, iste dolor
                     cupiditate blanditiis ratione.
