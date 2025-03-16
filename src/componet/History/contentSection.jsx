@@ -1,5 +1,12 @@
 import { ArrowLongRightIcon } from "@heroicons/react/20/solid";
-
+const placeIdentified = [
+  "Agugu",
+  "Oba-Oloke",
+  "Police College",
+  "Eleyele",
+  "Sanngo",
+  "Agodi Prison",
+];
 export default function ContentSection() {
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
@@ -80,7 +87,22 @@ export default function ContentSection() {
                 could be planted. Places identified were:
               </p>
               <ul className="mt-8 space-y-5 text-gray-600">
-                <li className="flex gap-x-1">
+                {placeIdentified.map((place) => {
+                  return (
+                    <li className="flex gap-x-1">
+                      <ArrowLongRightIcon
+                        aria-hidden="true"
+                        className="mt-1 size-5 flex-none text-indigo-600"
+                      />
+                      <span>
+                        <strong className="font-semibold text-gray-900">
+                          {place}.
+                        </strong>
+                      </span>
+                    </li>
+                  );
+                })}
+                {/* <li className="flex gap-x-1">
                   <ArrowLongRightIcon
                     aria-hidden="true"
                     className="mt-1 size-5 flex-none text-indigo-600"
@@ -99,25 +121,10 @@ export default function ContentSection() {
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      SSL certificates.
-                    </strong>{" "}
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                    qui lorem cupidatat commodo.
+                      Oba-Oloke.
+                    </strong>
                   </span>
-                </li>
-                <li className="flex gap-x-3">
-                  <ArrowLongRightIcon
-                    aria-hidden="true"
-                    className="mt-1 size-5 flex-none text-indigo-600"
-                  />
-                  <span>
-                    <strong className="font-semibold text-gray-900">
-                      Database backups.
-                    </strong>{" "}
-                    Ac tincidunt sapien vehicula erat auctor pellentesque
-                    rhoncus. Et magna sit morbi lobortis.
-                  </span>
-                </li>
+                </li> */}
               </ul>
               <p className="mt-8">
                 Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
