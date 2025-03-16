@@ -49,9 +49,14 @@ export default function ContentSection() {
                 Founding and Establishing the Church.
               </h1>
               <p className="mt-6 text-xl/8 text-gray-700">
-                Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                id at vitae feugiat egestas.
+                Obedience to God Almighty Father's directive that all Christians
+                should go into the world and preach the gospel, a preaching
+                station of the Union Baptist Church, Ekotedo, in Ibadan city,
+                began in October 1960. The vision to start church planting
+                started with the Late Revd. Theophilus Adedeji Adejumobi became
+                the pastor of the church. In one of his sermons on soul winning,
+                in 1958, many people responded to become soul winners and the
+                RIEL club [Religion In Everyday Life] was inaugurated .
               </p>
             </div>
           </div>
@@ -59,7 +64,7 @@ export default function ContentSection() {
         <div className="-mt-12 -ml-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
             alt=""
-            src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
+            src="/images/images.png"
             className="w-[48rem] max-w-none rounded-xl bg-gray-900 ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem]"
           />
         </div>
