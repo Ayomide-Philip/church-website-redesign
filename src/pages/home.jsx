@@ -9,6 +9,33 @@ import Faq from "../componet/Home/faq";
 import Contact from "../componet/Home/contact";
 import Footer from "../componet/Footer/footer";
 
+let deferredPrompt;
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  // Prevent the default install prompt
+  e.preventDefault();
+  deferredPrompt = e;
+
+  // Show a custom install button
+  const installButton = document.getElementById("install-button");
+  if (installButton) {
+    installButton.style.display = "block";
+
+    installButton.addEventListener("click", () => {
+      // Show the install prompt
+      deferredPrompt.prompt();
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === "accepted") {
+          console.log("User accepted the install prompt");
+        } else {
+          console.log("User dismissed the install prompt");
+        }
+        deferredPrompt = null;
+      });
+    });
+  }
+});
+
 export default function Home() {
   return (
     <div>
