@@ -91,11 +91,8 @@ export default function ContentSection() {
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Push to deploy.
+                      Agugu.
                     </strong>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
