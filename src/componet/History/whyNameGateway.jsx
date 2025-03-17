@@ -1,13 +1,13 @@
 export default function WhyNameGateway() {
   return (
-    <div class="relative p-4">
-      <div class="max-w-3xl mx-auto">
-        <div class="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-          <div class="">
-            <h3 class="text-2xl font-bold my-5">
+    <div className="relative p-4">
+      <div className="max-w-3xl bg-[#F8F9FA] mx-auto">
+        <div className="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+          <div className="">
+            <h3 className="text-2xl font-bold my-5">
               Why the name was "Gateway" Baptist Church?
             </h3>
-            <p class="text-base leading-8 my-5">
+            <p className="text-base leading-8 my-5">
               Have you ever wondered why the church was named "Gateway"? As at
               1960, there was only an entry point from the northern part of the
               country. At the site are of the church was the airport. Also, it
@@ -21,8 +21,10 @@ export default function WhyNameGateway() {
               salvation as well as, break-through, success, miracles, blessings,
               redemption and long life and prosperity.
             </p>
-            <h3 class="text-2xl font-bold my-5">The Pioneer Worshippers:</h3>
-            <p class="text-base leading-8 my-5">
+            <h3 className="text-2xl font-bold my-5">
+              The Pioneer Worshippers:
+            </h3>
+            <p className="text-base leading-8 my-5">
               Among the lots of worshippers at the inception of Gateway Baptist
               Church in 1960 were Pa James Alabi, Madam Towobola Babalola, Iya
               Ijesa Janet, Madam Emily Lakunbi, Papa Ila Alabi, Pa. Michael
