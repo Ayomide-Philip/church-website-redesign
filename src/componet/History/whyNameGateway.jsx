@@ -1,7 +1,7 @@
 export default function WhyNameGateway() {
   return (
     <div className="relative p-4">
-      <div className="max-w-3xl bg-[#F8F9FA] mx-auto">
+      <div className="max-w-3xl  mx-auto">
         <div className="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
           <div className="">
             <h3 className="text-2xl font-bold my-5">
