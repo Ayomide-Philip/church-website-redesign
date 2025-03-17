@@ -70,6 +70,55 @@ export default function WhyNameGateway() {
                 structure.
               </p>
             </div>
+            <h3 className="text-2xl font-bold my-5">
+              Headship and Church Shepards:
+            </h3>
+            <div className="text-base leading-8 my-5">
+              <p>
+                The Lord Jesus Christ is the greatest Shepard of GATEWAY BAPTIST
+                CHURCH, SANNGO-IBADAN, His Church. Revd. Lowo Mamadelo ( then
+                Pastor) was called to take charge as shepherds of the Church. He
+                was until then the Pastor of Baptist Church, Ijebu-Imusin. He
+                was invited through the personal efforts of Pastor Segun
+                Lawoyin, then Agodi Baptist Church, Ibadan, even though the
+                church sent a search committee delegates (Messrs M.O. Ogunnowo,
+                Late A.O Amori and M.O Ajuwon) to locate him in Ijebu-Imusin and
+                to invite him for a chat at the church later, to which he gladly
+                responded and his call to the church was confirmed and
+                thereafter began the Lords work at Gateway Baptist Church,
+                SANNGO-IBADAN, in June 1970. Then, Pastor Lowo Mamadelo later
+                got married and bore children as well as got ordained during his
+                pastoral service in the church. He resigned his appoinment in
+                1984, after his return from Canada where he had undertaken an
+                in-service course. As an adage says, "cost us whatever it may,
+                we must get right with God", the entire members of the church
+                appointed great men of integrity and spirit-filled among
+                themselves as the Pulpit Committee to continue the good work of
+                evangelism, as follow:
+              </p>
+              <ul className="mt-2 space-y-5 text-gray-600">
+                {firstBuildingCommittee.map((place) => {
+                  return (
+                    <li className="flex gap-x-1">
+                      <ArrowLongRightIcon
+                        aria-hidden="true"
+                        className="mt-1 size-5 flex-none text-indigo-600"
+                      />
+                      <span>
+                        <strong className="font-semibold text-gray-900">
+                          {place}.
+                        </strong>
+                      </span>
+                    </li>
+                  );
+                })}
+              </ul>
+              <p>
+                The younger brother of the Chairman of the Building Committee,
+                Arc. Aderele, of blessed memory, designed the present church
+                structure.
+              </p>
+            </div>
           </div>
         </div>
       </div>
