@@ -1,5 +1,9 @@
 import { ArrowLongRightIcon } from "@heroicons/react/20/solid";
-const firstBuildingCommittee = ["Dr. J.O Ojesina","Late Pa. A.O. Amori(a.k.a E ma je o duro) as the Secretary."];
+const firstBuildingCommittee = [
+  "Dr. J.O Ojesina",
+  "Late Pa. A.O. Amori(a.k.a E ma je o duro) as the Secretary",
+  "Pa. D.O. Balogun",
+];
 export default function WhyNameGateway() {
   return (
     <div className="relative p-4">
@@ -60,6 +64,11 @@ export default function WhyNameGateway() {
                   );
                 })}
               </ul>
+              <p>
+                The younger brother of the Chairman of the Building Committee,
+                Arc. Aderele, of blessed memory, designed the present church
+                structure.
+              </p>
             </div>
           </div>
         </div>
