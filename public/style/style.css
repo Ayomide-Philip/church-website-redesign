@@ -35,6 +35,30 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+.typing-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: none;
+  /* No blinking cursor */
+  width: 0;
+  animation: typing 4s steps(20, end) infinite;
+}
+
 
 /* 
 .navbar-custom {
