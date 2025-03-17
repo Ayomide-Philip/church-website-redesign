@@ -1,3 +1,5 @@
+import { ArrowLongRightIcon } from "@heroicons/react/20/solid";
+
 export default function WhyNameGateway() {
   return (
     <div className="relative p-4">
@@ -35,17 +37,25 @@ export default function WhyNameGateway() {
               Construction the Church Building:
             </h3>
             <div className="text-base leading-8 my-5">
-              In the year 1969, the entire members of the church decided to
-              enlarge the mud building then used as church. The first Building
-              Committee was inaugurated, having Pa. T.A Aderele as the Chairman,
-              while others members were:
-              <ul>
-                <li>Dr. J.O Ojesina.</li>
+              <p>
+                In the year 1969, the entire members of the church decided to
+                enlarge the mud building then used as church. The first Building
+                Committee was inaugurated, having Pa. T.A Aderele as the
+                Chairman, while others members were:
+              </p>
+              <ol list="square">
+                <li>
+                  <ArrowLongRightIcon
+                    aria-hidden="true"
+                    className="mt-1 size-5 flex-none text-indigo-600"
+                  />
+                  <span>Dr. J.O Ojesina.</span>
+                </li>
                 <li>
                   Late Pa. A.O. Amori(a.k.a E ma je o duro) as the Secretary.
                 </li>
                 <li>Pa. D.O. Balogun.</li>
-              </ul>
+              </ol>
             </div>
           </div>
         </div>
