@@ -6,11 +6,11 @@ const firstBuildingCommittee = [
 ];
 const firstLeadershipandMember = [
   "Late Deacon A.J Adegun (a.k.a. Baba Ihinrere)- Chairman",
-  "Mr. J.O Ojesina - Member.",
-  "Late Deacon E.O Alaka - Member.",
-  "Mr. T.O Agboola - Member.",
-  "Late Madam J.A. Ogunjobi - Members.",
-  ""
+  "Mr. J.O Ojesina - Member",
+  "Late Deacon E.O Alaka - Member",
+  "Mr. T.O Agboola - Member",
+  "Late Madam J.A. Ogunjobi - Members",
+  "Mr. P.O. Oyadipe - Members / Secretary",
 ];
 export default function WhyNameGateway() {
   return (
@@ -104,7 +104,7 @@ export default function WhyNameGateway() {
                 themselves as the Pulpit Committee to continue the good work of
                 evangelism, as follow:
               </p>
-              <ul className="mt-2 space-y-5 text-gray-600">
+              <ul className="mt-2 space-y-3 text-gray-600">
                 {firstLeadershipandMember.map((place) => {
                   return (
                     <li className="flex gap-x-1">
