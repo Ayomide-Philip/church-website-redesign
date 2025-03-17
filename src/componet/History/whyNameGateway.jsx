@@ -4,6 +4,14 @@ const firstBuildingCommittee = [
   "Late Pa. A.O. Amori(a.k.a E ma je o duro) as the Secretary",
   "Pa. D.O. Balogun",
 ];
+const firstLeadershipandMember = [
+  "Late Deacon A.J Adegun (a.k.a. Baba Ihinrere)- Chairman",
+  "Mr. J.O Ojesina - Member.",
+  "Late Deacon E.O Alaka - Member.",
+  "Mr. T.O Agboola - Member.",
+  "Late Madam J.A. Ogunjobi - Members.",
+  ""
+];
 export default function WhyNameGateway() {
   return (
     <div className="relative p-4">
@@ -97,7 +105,7 @@ export default function WhyNameGateway() {
                 evangelism, as follow:
               </p>
               <ul className="mt-2 space-y-5 text-gray-600">
-                {firstBuildingCommittee.map((place) => {
+                {firstLeadershipandMember.map((place) => {
                   return (
                     <li className="flex gap-x-1">
                       <ArrowLongRightIcon
