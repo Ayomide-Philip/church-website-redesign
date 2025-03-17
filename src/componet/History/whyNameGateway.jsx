@@ -122,9 +122,11 @@ export default function WhyNameGateway() {
                 })}
               </ul>
               <p>
-                The younger brother of the Chairman of the Building Committee,
-                Arc. Aderele, of blessed memory, designed the present church
-                structure.
+                In 1984, late Pastor Bisi Irele took the baton of the pastorate
+                of the church shortly after Revd. Lowo Mamadelo departure. In
+                July 1985, the annoitted man of God, Revd. Augustus Adebimpe
+                Alade, came on board of the church pastorate, and has continued
+                till 2012.
               </p>
             </div>
           </div>
