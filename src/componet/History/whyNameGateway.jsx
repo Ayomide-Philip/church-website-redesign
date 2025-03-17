@@ -1,5 +1,5 @@
 import { ArrowLongRightIcon } from "@heroicons/react/20/solid";
-
+const firstBuildingCommittee = ["Dr. J.O Ojesina","Late Pa. A.O. Amori(a.k.a E ma je o duro) as the Secretary."];
 export default function WhyNameGateway() {
   return (
     <div className="relative p-4">
@@ -43,19 +43,23 @@ export default function WhyNameGateway() {
                 Committee was inaugurated, having Pa. T.A Aderele as the
                 Chairman, while others members were:
               </p>
-              <ol list="square">
-                <li>
-                  <ArrowLongRightIcon
-                    aria-hidden="true"
-                    className="mt-1 size-5 flex-none text-indigo-600"
-                  />
-                  <span>Dr. J.O Ojesina.</span>
-                </li>
-                <li>
-                  Late Pa. A.O. Amori(a.k.a E ma je o duro) as the Secretary.
-                </li>
-                <li>Pa. D.O. Balogun.</li>
-              </ol>
+              <ul className="mt-2 space-y-5 text-gray-600">
+                {firstBuildingCommittee.map((place) => {
+                  return (
+                    <li className="flex gap-x-1">
+                      <ArrowLongRightIcon
+                        aria-hidden="true"
+                        className="mt-1 size-5 flex-none text-indigo-600"
+                      />
+                      <span>
+                        <strong className="font-semibold text-gray-900">
+                          {place}.
+                        </strong>
+                      </span>
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
           </div>
         </div>
