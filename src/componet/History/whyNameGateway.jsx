@@ -31,6 +31,16 @@ export default function WhyNameGateway() {
               Ogunlana, Pa Matthew Adeniran and Pa. Bamidele. Majority of them
               are now of blessed memory.
             </p>
+            <h3 className="text-2xl font-bold my-5">
+              Construction the Church Building:
+            </h3>
+            <div className="text-base leading-8 my-5">
+              Among the lots of worshippers at the inception of Gateway Baptist
+              Church in 1960 were Pa James Alabi, Madam Towobola Babalola, Iya
+              Ijesa Janet, Madam Emily Lakunbi, Papa Ila Alabi, Pa. Michael
+              Ogunlana, Pa Matthew Adeniran and Pa. Bamidele. Majority of them
+              are now of blessed memory.
+            </div>
           </div>
         </div>
       </div>
