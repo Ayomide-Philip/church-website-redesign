@@ -35,11 +35,17 @@ export default function WhyNameGateway() {
               Construction the Church Building:
             </h3>
             <div className="text-base leading-8 my-5">
-              Among the lots of worshippers at the inception of Gateway Baptist
-              Church in 1960 were Pa James Alabi, Madam Towobola Babalola, Iya
-              Ijesa Janet, Madam Emily Lakunbi, Papa Ila Alabi, Pa. Michael
-              Ogunlana, Pa Matthew Adeniran and Pa. Bamidele. Majority of them
-              are now of blessed memory.
+              In the year 1969, the entire members of the church decided to
+              enlarge the mud building then used as church. The first Building
+              Committee was inaugurated, having Pa. T.A Aderele as the Chairman,
+              while others members were:
+              <ul>
+                <li>Dr. J.O Ojesina.</li>
+                <li>
+                  Late Pa. A.O. Amori(a.k.a E ma je o duro) as the Secretary.
+                </li>
+                <li>Pa. D.O. Balogun.</li>
+              </ul>
             </div>
           </div>
         </div>
