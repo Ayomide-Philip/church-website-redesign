@@ -8,7 +8,7 @@ export default function JoinUs() {
       <main class="flex-grow flex flex-col space-y-5 items-center bg-stone-300 justify-center p-4">
         <video
           id="videoPlayer"
-          class="w-full md:w-2/3 max-w-3xl mx-auto rounded-lg "
+          class="w-full md:w-2/3 max-w-3xl mx-auto rounded-lg"
           controls
         ></video>
       </main>
