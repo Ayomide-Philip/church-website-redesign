@@ -2,7 +2,9 @@ import ComeToChurch from "./comeToChurch";
 
 const description = "Watch us Live Today";
 const topic = "Experience The Power Of Worship";
-
+const url =
+  "https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F1069831131850092";
+  
 export default function LiveVideo() {
   return (
     <main class="flex-grow flex flex-col space-y-5 items-center bg-stone-300 justify-center p-4">
@@ -13,7 +15,7 @@ export default function LiveVideo() {
         <div class="relative pb-[56.25%] rounded-lg overflow-hidden">
           <iframe
             class="absolute top-0 left-0 w-full h-full"
-            src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F1069831131850092"
+            src={`https://www.facebook.com/plugins/video.php?href=${url}`}
             frameborder="0"
             allowfullscreen
             title="Facebook Live Video"
