@@ -36,30 +36,51 @@
 }
 
 @keyframes typing {
-  0% {
+  from {
     width: 0;
   }
 
-  40% {
+  to {
     width: 100%;
-  }
-
-  60% {
-    width: 100%;
-  }
-
-  100% {
-    width: 0;
   }
 }
 
+@keyframes cursorBlink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Main Typing Effect */
 .typing-text {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
+  /* Ensures it stays in one line initially */
+  border-right: 3px solid white;
+  /* Cursor effect */
   width: 0;
-  animation: typing 6s steps(20, end) infinite;
+  animation: typing 4s steps(40, end) 1s infinite alternate, cursorBlink 1s infinite;
+  max-width: 100%;
+  /* Expands fully before wrapping */
 }
+
+/* On small screens, allow wrapping but ONLY when necessary */
+@media (max-width: 768px) {
+  .typing-text {
+    display: block;
+    /* Prevent stacking */
+    overflow-wrap: break-word;
+    /* Only breaks when needed */
+    word-break: break-word;
+    /* Ensures proper breaking */
+    white-space: normal;
+    /* Allows text to wrap if needed */
+    width: 100%;
+    /* Forces it to expand before breaking */
+  }
+}
+
 
 
 /* 
