@@ -1,10 +1,11 @@
-
+const description = "Watch us Live Today";
+const topic = "Experience The Power Of Worship";
 
 export default function LiveVideo() {
   return (
     <main class="flex-grow flex flex-col space-y-5 items-center bg-stone-300 justify-center p-4">
       <h1 class="sm:text-4xl py-5 capitalize  font-bold title-font mb-4 text-black tracking-widest">
-        Experience The Power Of Worship - Watch us Live Today
+        {topic} - {description}
       </h1>
       <div class="w-full md:w-2/3 max-w-3xl mx-auto">
         <div class="relative pb-[56.25%] rounded-lg overflow-hidden">
