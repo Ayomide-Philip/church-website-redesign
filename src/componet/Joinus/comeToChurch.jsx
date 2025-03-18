@@ -2,7 +2,7 @@ export default function ComeToChurch() {
   return (
     <>
       {" "}
-      <h2 className="text-gray-900 text-4xl  mb-1 font-medium title-font">
+      <h2 className="text-gray-900 text-4xl  mt-7 mb-1 font-medium title-font">
         Do you want to Worship with us?
       </h2>
       <p className="leading-relaxed mb-5 text-gray-600">
