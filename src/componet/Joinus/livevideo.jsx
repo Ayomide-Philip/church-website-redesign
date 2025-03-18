@@ -1,3 +1,5 @@
+import ComeToChurch from "./comeToChurch";
+
 const description = "Watch us Live Today";
 const topic = "Experience The Power Of Worship";
 
@@ -18,7 +20,7 @@ export default function LiveVideo() {
           ></iframe>
         </div>
       </div>
-      
+      <ComeToChurch />
     </main>
   );
 }
