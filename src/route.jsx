@@ -7,6 +7,7 @@ import History from "./pages/history";
 import CommingSoon from "./pages/commingSoon";
 import JoinUs from "./pages/joinus";
 import ContactUs from "./pages/contactus";
+import Leader from "./pages/leader";
 
 function AppRouting() {
   return (
@@ -21,7 +22,7 @@ function AppRouting() {
       <Route path="/contact" element={<ContactUs />} />
       <Route path="/donate" element={<CommingSoon />} />
       <Route path="/bibleStudyMaterial" element={<CommingSoon />} />
-      <Route path="/leaders" element={<CommingSoon />} />
+      <Route path="/leaders" element={<Leader />} />
       <Route path="/joinus" element={<JoinUs />} />
       <Route path="*" element={<Page404 />} />
     </Routes>
