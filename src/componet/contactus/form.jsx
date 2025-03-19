@@ -12,7 +12,7 @@ export default function Form() {
           </p>
         </div>
         <div class="lg:w-1/2 md:w-2/3 mx-auto">
-          <form action="">
+          <form action="https://formspree.io/f/mqapepqv" method="POST">
             <div class="flex flex-wrap -m-2">
               <div class="p-2 w-1/2">
                 <div class="relative">
