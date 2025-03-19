@@ -3,13 +3,14 @@ export default function OurLeader() {
     <section class="text-gray-600 body-font bg-stone-100">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
-          <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">
-            OUR TEAM
+          <h1 class="sm:text-4xl text-2xl font-medium title-font mb-4 text-gray-900">
+            Guiding Lights and Supportive Ministry of Gateway Baptist Church
           </h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them.
+            Our church team is a dedicated group of pastors, leaders, and
+            volunteers committed to serving God and our community. With faith,
+            love, and unity, we work together to inspire, support, and guide
+            others in their spiritual journey.
           </p>
         </div>
         <div class="flex flex-wrap -m-4">
