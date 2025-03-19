@@ -9,7 +9,7 @@ function VideoBanner(props) {
       </video>
       <div class="video-overlay">
         <div>
-          <h1 class="text-4xl md:text-5xl lg:text-6xl pb-2 typing-text">
+          <h1 class="text-4xl md:text-5xl lg:text-6xl pb-2">
             {props.title}
           </h1>
           <p class="text-1xl md:text-2xl lg:text-3xl">{props.subtitle}</p>
