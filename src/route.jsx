@@ -6,6 +6,7 @@ import "./output.css";
 import History from "./pages/history";
 import CommingSoon from "./pages/commingSoon";
 import JoinUs from "./pages/joinus";
+import ContactUs from "./pages/contactus";
 
 function AppRouting() {
   return (
@@ -17,7 +18,7 @@ function AppRouting() {
       <Route path="/childrenMinistry" element={<CommingSoon />} />
       <Route path="/teenagerMinistry" element={<CommingSoon />} />
       <Route path="/blog" element={<CommingSoon />} />
-      <Route path="/contact" element={<CommingSoon />} />
+      <Route path="/contact" element={<ContactUs />} />
       <Route path="/donate" element={<CommingSoon />} />
       <Route path="/bibleStudyMaterial" element={<CommingSoon />} />
       <Route path="/leaders" element={<CommingSoon />} />
