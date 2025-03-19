@@ -7,8 +7,8 @@ export default function Form() {
             Contact Us
           </h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify.
+            We'd love to hear from you! Please fill out the form below to get in
+            touch.
           </p>
         </div>
         <div class="lg:w-1/2 md:w-2/3 mx-auto">
@@ -52,13 +52,15 @@ export default function Form() {
               </div>
             </div>
             <div class="p-2 w-full">
-              <button class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
-                Button
-              </button>
+              <input
+                type="submit"
+                class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
+                value="Submit"
+              />
             </div>
             <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-              <a class="text-blue-500" href="./#">
-                example@email.com
+              <a class="text-blue-500" href="mailto:gateway4054@gmail.com">
+                gateway4054@gmail.com
               </a>
               <p class="leading-normal my-5">
                 49 Smith St.
