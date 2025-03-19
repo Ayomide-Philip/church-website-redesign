@@ -15,6 +15,22 @@ const leader = [
     imageLocation: "guidingLight",
     imageName: "assistantSeniorRved",
   },
+  {
+    name: "Rev. Dr. Damola Adeyefa",
+    role: "Designer",
+    imageName: "englishRved",
+    imageLocation: "guidingLight",
+    description:
+      "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
+  {
+    name: "Rev. Miss Florence  Adedeji",
+    role: "UI Developer",
+    imageName: "rvedMiss",
+    imageLocation: "guidingLight",
+    description:
+      "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
 ];
 export default function OurLeader() {
   return (
@@ -38,7 +54,7 @@ export default function OurLeader() {
                 <div class="h-full flex flex-col items-center text-center">
                   <img
                     alt="team"
-                    class="flex-shrink-0 rounded-lg h-56 object-cover object-[center_top] mb-4"
+                    class="flex-shrink-0 rounded-lg w-60 h-56 object-cover object-[center_top] mb-4"
                     src={`/images/leaders/${leaders.imageLocation}/${leaders.imageName}.jpg`}
                   />
 
