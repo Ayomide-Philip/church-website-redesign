@@ -24,6 +24,7 @@ export default function Form() {
                     id="name"
                     name="name"
                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    required
                   />
                 </div>
               </div>
@@ -37,6 +38,7 @@ export default function Form() {
                     id="email"
                     name="email"
                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    required
                   />
                 </div>
               </div>
@@ -50,6 +52,7 @@ export default function Form() {
                     id="phoneNumber"
                     name="phoneNumber"
                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 appearance-none [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none ease-in-out "
+                    required
                   />
                 </div>
               </div>
