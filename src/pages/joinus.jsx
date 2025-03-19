@@ -12,7 +12,6 @@ export default function JoinUs() {
         title="Join Us Today for Church Service"
       />
       <LiveVideo />
-
       <Footer />
     </>
   );
