@@ -546,6 +546,12 @@
   .h-56 {
     height: calc(var(--spacing) * 56);
   }
+  .h-60 {
+    height: calc(var(--spacing) * 60);
+  }
+  .h-64 {
+    height: calc(var(--spacing) * 64);
+  }
   .h-\[64rem\] {
     height: 64rem;
   }
@@ -941,8 +947,14 @@
   .stroke-gray-200 {
     stroke: var(--color-gray-200);
   }
+  .object-contain {
+    object-fit: contain;
+  }
   .object-cover {
     object-fit: cover;
+  }
+  .object-\[center_top\] {
+    object-position: center top;
   }
   .object-center {
     object-position: center;
