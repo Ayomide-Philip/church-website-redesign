@@ -1,3 +1,13 @@
+const leader = [
+  {
+    name: "Rev. Dr. Adedeji Emmanuel Ade",
+    role: "UI Developer",
+    description:
+      " DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+    imageLocation: "guidingLight",
+    imageName: "seniorRved",
+  },
+];
 export default function OurLeader() {
   return (
     <section class="text-gray-600 body-font bg-stone-100">
@@ -18,9 +28,10 @@ export default function OurLeader() {
             <div class="h-full flex flex-col items-center text-center">
               <img
                 alt="team"
-                class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                class="flex-shrink-0 rounded-lg h-56 object-cover object-[center_top] mb-4"
                 src="/images/leaders/guidingLight/seniorRved.jpg"
               />
+
               <div class="w-full">
                 <h2 class="title-font font-medium text-lg text-gray-900">
                   Rev. Dr. Adedeji Emmanuel Ade
@@ -34,7 +45,7 @@ export default function OurLeader() {
             </div>
           </div>
 
-          <div class="p-4 lg:w-1/4 md:w-1/2">
+          {/* <div class="p-4 lg:w-1/4 md:w-1/2">
             <div class="h-full flex flex-col items-center text-center">
               <img
                 alt="team"
@@ -92,7 +103,7 @@ export default function OurLeader() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
