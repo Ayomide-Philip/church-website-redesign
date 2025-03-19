@@ -7,11 +7,19 @@ const leader = [
     imageLocation: "guidingLight",
     imageName: "seniorRved",
   },
+  {
+    name: "Rev. Dr. Wuyi Oke",
+    role: "Designer",
+    description:
+      "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+    imageLocation: "guidingLight",
+    imageName: "assistantSeniorRved",
+  },
 ];
 export default function OurLeader() {
   return (
     <section class="text-gray-600 body-font bg-stone-100">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 py-5 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1 class="sm:text-4xl text-2xl font-medium title-font mb-4 text-gray-900">
             Guiding Lights and Supportive Ministry of Gateway Baptist Church
