@@ -16,7 +16,7 @@ export default function CommingSoon() {
 
         <div class="z-1 flex flex-col justify-center text-white font-extrabold w-full h-screen">
           <h1 class="text-5xl">
-            We are <b>Almost</b> there!
+            We are <b>Almost</b> Done!
           </h1>
           <p>Stay tuned for something amazing!!!</p>
 
@@ -26,22 +26,19 @@ export default function CommingSoon() {
                 class="rounded-full bg-indigo-600 text-xs leading-none text-center text-white py-1"
                 style={{ width: "75%" }}
               >
-                75%
+                50%
               </div>
             </div>
           </div>
 
           <div class="mt-6 flex text-white mx-auto">
-            <a href="#">
+            <a href="./#">
               <svg
                 fill="currentColor"
                 class="cursor-pointer h-6 mr-2"
                 viewBox="0 0 24 24"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
-                // xmlns:xlink="http://www.w3.org/1999/xlink"
-                // xml:space="preserve"
-                // xmlns:serif="http://www.serif.com/"
                 style={{
                   fillRule: "evenodd",
                   clipRule: "evenodd",
@@ -68,16 +65,13 @@ export default function CommingSoon() {
                 ></path>
               </svg>
             </a>
-            <a href="/#">
+            <a href="./#">
               <svg
                 fill="currentColor"
                 class="cursor-pointer h-6 mr-2"
                 viewBox="0 0 24 24"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
-                // xmlns:xlink="http://www.w3.org/1999/xlink"
-                // xml:space="preserve"
-                // xmlns:serif="http://www.serif.com/"
                 style={{
                   fillRule: "evenodd",
                   clipRule: "evenodd",
@@ -102,9 +96,6 @@ export default function CommingSoon() {
                 viewBox="0 0 24 24"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
-                // xmlns:xlink="http://www.w3.org/1999/xlink"
-                // xml:space="preserve"
-                // xmlns:serif="http://www.serif.com/"
                 style={{
                   fillRule: "evenodd",
                   clipRule: "evenodd",
@@ -131,16 +122,13 @@ export default function CommingSoon() {
                 ></path>
               </svg>
             </a>
-            <a href="#">
+            <a href="./#">
               <svg
                 fill="currentColor"
                 class="cursor-pointer h-6 mr-2"
                 viewBox="0 0 24 24"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
-                // xmlns:xlink="http://www.w3.org/1999/xlink"
-                // xml:space="preserve"
-                // xmlns:serif="http://www.serif.com/"
                 style={{
                   fillRule: "evenodd",
                   clipRule: "evenodd",
