@@ -95,7 +95,6 @@ const leader = [
     description:
       "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
   },
-
   {
     name: "lorem ipesum",
     role: "UI Developer",
@@ -108,6 +107,14 @@ const leader = [
     name: "lorem ipesum",
     role: "UI Developer",
     imageName: "deaconation",
+    imageLocation: "supportingMinistry",
+    description:
+      "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
+  {
+    name: "lorem ipesum",
+    role: "UI Developer",
+    imageName: "social-maintance",
     imageLocation: "supportingMinistry",
     description:
       "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
