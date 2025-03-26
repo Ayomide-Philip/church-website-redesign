@@ -31,6 +31,22 @@ const leader = [
     description:
       "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
   },
+  {
+    name: "lorem ipesum",
+    role: "UI Developer",
+    imageName: "teenager-pastor",
+    imageLocation: "guidingLight",
+    description:
+      "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
+  {
+    name: "lorem ipesum",
+    role: "UI Developer",
+    imageName: "teen-pastor",
+    imageLocation: "guidingLight",
+    description:
+      "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
 ];
 export default function OurLeader() {
   return (
