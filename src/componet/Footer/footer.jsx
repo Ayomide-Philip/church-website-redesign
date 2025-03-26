@@ -21,7 +21,10 @@ export default function Footer() {
           </a>
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <a class="text-gray-400" href="./#">
+          <a
+            class="text-gray-400"
+            href="https://www.facebook.com/gatewaybaptistchurchsango/"
+          >
             <svg
               fill="currentColor"
               stroke-linecap="round"
