@@ -74,8 +74,8 @@ const leader = [
   {
     name: "lorem ipesum",
     role: "UI Developer",
-    imageName: "evangelism",
-    imageLocation: "guidingLight",
+    imageName: "old-age-affairs",
+    imageLocation: "supportingMinistry",
     description:
       "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
   },
