@@ -26,7 +26,7 @@ export default function CommingSoon() {
                 class="rounded-full bg-indigo-600 text-xs leading-none text-center text-white py-1"
                 style={{ width: "75%" }}
               >
-                50%
+                75%
               </div>
             </div>
           </div>
