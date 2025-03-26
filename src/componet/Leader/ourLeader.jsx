@@ -138,6 +138,14 @@ const leader = [
   {
     name: "lorem ipesum",
     role: "UI Developer",
+    imageName: "deacon-evanglism",
+    imageLocation: "supportingMinistry",
+    description:
+      "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
+  {
+    name: "lorem ipesum",
+    role: "UI Developer",
     imageName: "pastorium-welfare",
     imageLocation: "supportingMinistry",
     description:
