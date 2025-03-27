@@ -16,7 +16,6 @@ function AppRouting() {
       <Route path="/" element={<Home />} />
       <Route path="/history" element={<History />} />
       <Route path="/missionandvission" element={<Missionandvission />} />
-      <Route path="/beliefs" element={<CommingSoon />} />
       <Route path="/childrenMinistry" element={<CommingSoon />} />
       <Route path="/teenagerMinistry" element={<CommingSoon />} />
       <Route path="/blog" element={<CommingSoon />} />
