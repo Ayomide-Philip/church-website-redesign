@@ -8,13 +8,14 @@ import CommingSoon from "./pages/commingSoon";
 import JoinUs from "./pages/joinus";
 import ContactUs from "./pages/contactus";
 import Leader from "./pages/leader";
+import Missionandvission from "./pages/missionAndVission";
 
 function AppRouting() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/history" element={<History />} />
-      <Route path="/missionandvission" element={<CommingSoon />} />
+      <Route path="/missionandvission" element={<Missionandvission />} />
       <Route path="/beliefs" element={<CommingSoon />} />
       <Route path="/childrenMinistry" element={<CommingSoon />} />
       <Route path="/teenagerMinistry" element={<CommingSoon />} />
