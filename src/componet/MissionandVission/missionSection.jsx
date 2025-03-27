@@ -5,17 +5,17 @@ export default function MissionSection() {
         <div class="w-[90%] mx-auto flex md:gap-4 xs:gap-2 justify-center items-center pt-4">
           <div class="flex gap-2 items-center">
             <img
-              src="https://lh3.googleusercontent.com/a/ACg8ocIexhmmTS8LcwWo1fPGY5Fl3KXpd-JuBE_Gj56P3rUR2g=s96-c"
+              src="/images/images.png"
               alt="Bloger Profile"
               class="md:w-[2.2rem] md:h-[2.2rem] xs:w-[2rem] xs:h-[2rem] rounded-full"
             />
-            <h2 class="text-sm font-semibold dark:text-white">Samuel Abera</h2>
+            <h2 class="text-sm font-semibold dark:text-white">Gateway Baptist Church</h2>
           </div>
           <div class="dark:text-gray-500">|</div>
-
+{/* 
           <h3 class="text-sm font-semibold text-gray-600 dark:text-gray-400">
             MAY 20, 2024
-          </h3>
+          </h3> */}
 
           <div class="dark:text-gray-500">|</div>
           <h4 class="text-sm font-semibold text-gray-600 dark:text-gray-400">
