@@ -36,54 +36,54 @@ export default function CommingSoon() {
     <>
       <Header />
       <div
-        class="relative h-screen w-full flex items-center justify-center bg-cover bg-center text-center px-5"
+        className="relative h-screen w-full flex items-center justify-center bg-cover bg-center text-center px-5"
         style={{
           backgroundImage:
             "url(https://images.pexels.com/photos/260689/pexels-photo-260689.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500)",
         }}
       >
-        <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-75"></div>
+        <div className="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-75"></div>
 
-        <div class="z-1 flex flex-col justify-center text-white font-extrabold w-full h-screen">
-          <h1 class="text-5xl">
+        <div className="z-1 flex flex-col justify-center text-white font-extrabold w-full h-screen">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl">
             We are <b>Almost</b> Done!
           </h1>
-          <p>Stay tuned for something amazing!!!</p>
+          <p className="text-lg sm:text-xl">Stay tuned for something amazing!!!</p>
 
-          <div class="mt-5 mb-2">
-            <div class="shadow w-full mt-2 max-w-2xl mx-auto rounded-full">
-              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-10 lg:mt-2">
+          <div className="mt-5 mb-2">
+            <div className="shadow w-full mt-2 max-w-2xl mx-auto rounded-full">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 sm:gap-10 mt-10 lg:mt-5">
 
-                <div class="bg-transparent border text-center">
-                  <p class="text-5xl px-10 py-5">
+                <div className="bg-transparent border text-center py-5">
+                  <p className="text-3xl sm:text-4xl md:text-5xl">
                     {days > 9 ? `${days}` : `0${days}`}
                   </p>
                   <hr />
-                  <p class="px-10 py-5">days</p>
+                  <p className="px-5 py-2 text-sm sm:text-base">days</p>
                 </div>
 
-                <div class="bg-transparent border text-center">
-                  <p class="text-5xl px-10 py-5">
+                <div className="bg-transparent border text-center py-5">
+                  <p className="text-3xl sm:text-4xl md:text-5xl">
                     {hours > 9 ? `${hours}` : `0${hours}`}
                   </p>
                   <hr />
-                  <p class="px-10 py-5">hours</p>
+                  <p className="px-5 py-2 text-sm sm:text-base">hours</p>
                 </div>
 
-                <div class="bg-transparent border text-center">
-                  <p class="text-5xl px-10 py-5">
+                <div className="bg-transparent border text-center py-5">
+                  <p className="text-3xl sm:text-4xl md:text-5xl">
                     {minutes > 9 ? `${minutes}` : `0${minutes}`}
                   </p>
                   <hr />
-                  <p class="px-10 py-5">mins</p>
+                  <p className="px-5 py-2 text-sm sm:text-base">mins</p>
                 </div>
 
-                <div class="bg-transparent border text-center">
-                  <p class="text-5xl px-10 py-5">
+                <div className="bg-transparent border text-center py-5">
+                  <p className="text-3xl sm:text-4xl md:text-5xl">
                     {seconds > 9 ? `${seconds}` : `0${seconds}`}
                   </p>
                   <hr />
-                  <p class="px-10 py-5">secs</p>
+                  <p className="px-5 py-2 text-sm sm:text-base">secs</p>
                 </div>
               </div>
             </div>
