@@ -56,6 +56,13 @@ const purposeStatement = [
     paragraph:
       "The Nigerian Baptist Convention supports a variety of programs and departments aimed at fostering spiritual growth and community engagement. These include Sunday School, Church Training Programmes, the Women Missionary Union, the Men Missionary Union, House Fellowship or Cell Groups, as well as any other programs or departments that may be approved by the Convention. These initiatives work together to encourage learning, fellowship, and mission work within the church community.",
   },
+  {
+    id: 3,
+    heading:
+      "To encourage group activities for enhancing the growth of the church.",
+    paragraph:
+      "The church seeks to encourage group activities that foster a sense of community and collaboration, aimed at enhancing its growth both spiritually and numerically. These group activities provide opportunities for individuals to connect with one another, share their faith, and support each other in their spiritual journeys.",
+  },
 ];
 
 export default function MissionSection() {
