@@ -6,23 +6,22 @@ export default function MissionSection() {
           <div class="flex gap-2 items-center">
             <img
               src="/images/images.png"
-              alt="Bloger Profile"
+              alt="Church Profile"
               class="md:w-[2.2rem] md:h-[2.2rem] xs:w-[2rem] xs:h-[2rem] rounded-full"
             />
-            <h2 class="text-sm font-semibold dark:text-white">Gateway Baptist Church</h2>
+            <h2 class="text-sm font-semibold dark:text-white">
+              Gateway Baptist Church
+            </h2>
           </div>
-          <div class="dark:text-gray-500">|</div>
-{/* 
-          <h3 class="text-sm font-semibold text-gray-600 dark:text-gray-400">
-            MAY 20, 2024
-          </h3> */}
 
           <div class="dark:text-gray-500">|</div>
           <h4 class="text-sm font-semibold text-gray-600 dark:text-gray-400">
             5 MIN READ
           </h4>
         </div>
-
+        <h1 class="w-[92%] mx-auto lg:text-4xl md:text-3xl xs:text-2xl text-center font-serif font-semibold pb-4 pt-8 dark:text-white">
+          Our Purpose Statement | Our Mission and Vision as a Church.
+        </h1>
         <div class="py-6 bg-white dark:bg-gray-800">
           <div class="md:w-[80%] xs:w-[90%] mx-auto pt-4">
             <p class="mx-auto text-md dark:text-gray-300">
