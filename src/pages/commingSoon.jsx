@@ -3,16 +3,14 @@ import Footer from "../componet/Footer/footer";
 import { useState } from "react";
 
 export default function CommingSoon() {
-  const targetTime = new Date(2025, 4, 15).getTime() +  24 * 60 * 60 * 1000; // 50 days in milliseconds
+  const targetTime = new Date(2025, 4, 15).getTime() + 24 * 60 * 60 * 1000; // 50 days in milliseconds
 
   const [timeLeft, setTimeLeft] = useState(targetTime - new Date().getTime());
 
   const [intervalId, setIntervalId] = useState(null);
 
-
   if (timeLeft > 0 && intervalId === null) {
     const id = setInterval(() => {
-
       const currentTime = new Date().getTime();
       const remainingTime = targetTime - currentTime;
 
@@ -68,12 +66,17 @@ export default function CommingSoon() {
                 </div>
 
                 <div class="bg-transparent border text-center">
-                  <p class="text-5xl px-10 py-5">{minutes}</p>
+                  <p class="text-5xl px-10 py-5">
+                    {" "}
+                    {minutes > 9 ? `${minutes}` : `0${minutes}`}
+                  </p>
                   <hr />
                   <p class="px-10 py-5">mins</p>
                 </div>
                 <div class="bg-transparent border text-center">
-                  <p class="text-5xl px-10 py-5">{seconds}</p>
+                  <p class="text-5xl px-10 py-5">
+                    {seconds > 9 ? `${seconds}` : `0${seconds}`}
+                  </p>
                   <hr />
                   <p class="px-10 py-5">secs</p>
                 </div>
