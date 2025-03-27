@@ -2,25 +2,6 @@ export default function MissionSection() {
   return (
     <div class="w-full h-full bg-white dark:bg-gray-800">
       <div class="w-full mx-auto py-10 bg-white dark:bg-gray-800">
-        
-        <div class="w-[94%] mx-auto flex gap-1 items-center text-gray-500 sm:text-[12px] xs:text-[10px] font-semibold dark:text-gray-400">
-          <span>Blog</span>
-          <span class="font-semibold text-md"></span>
-          <span>Framework</span>
-          <span class="font-semibold text-md"></span>
-          <span>Why Tailwind CSS Wins My Utility Belt</span>
-        </div>
-
-        <h1 class="w-[92%] mx-auto lg:text-4xl md:text-3xl xs:text-2xl text-center font-serif font-semibold pb-4 pt-8 dark:text-white">
-          Why Tailwind CSS Wins My Utility Belt: A Dev's Guide
-        </h1>
-
-        <img
-          src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxjb2RlfGVufDB8MHx8fDE3NDIyOTQ1NDB8MA&ixlib=rb-4.0.3&q=80&w=1080"
-          alt="Blog Cover"
-          class="xl:w-[80%] xs:w-[96%] mx-auto lg:h-[560px] md:h-[480px] rounded-lg"
-        />
-
         <div class="w-[90%] mx-auto flex md:gap-4 xs:gap-2 justify-center items-center pt-4">
           <div class="flex gap-2 items-center">
             <img
