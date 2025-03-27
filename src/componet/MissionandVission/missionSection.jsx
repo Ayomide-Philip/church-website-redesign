@@ -49,6 +49,13 @@ const purposeStatement = [
     paragraph:
       "In Matthew 22:37-40, Jesus emphasizes the importance of loving God with all our heart, soul, and mind, and loving our neighbors as  ourselves, stating that all the law and the Prophets are based on  these two commandments. In Matthew 28:19-20, Jesus commands his followers to go and make disciples of all nations, baptizing them  in the name of the Father, Son, and Holy Spirit, and teaching them  to obey all that He has commanded. Both passages highlight the  core of Christian teaching: love for God and others, and the mission to spread this love through discipleship and obedience.",
   },
+  {
+    id: 2,
+    heading:
+      "To organize and maintain the following programmes and departments.",
+    paragraph:
+      "The Nigerian Baptist Convention supports a variety of programs and departments aimed at fostering spiritual growth and community engagement. These include Sunday School, Church Training Programmes, the Women Missionary Union, the Men Missionary Union, House Fellowship or Cell Groups, as well as any other programs or departments that may be approved by the Convention. These initiatives work together to encourage learning, fellowship, and mission work within the church community.",
+  },
 ];
 
 export default function MissionSection() {
