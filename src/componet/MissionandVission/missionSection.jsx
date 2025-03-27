@@ -1,46 +1,3 @@
-/* <h1 class="font-semibold text-lg mt-4 dark:text-white">
-              1. The Gateway Baptist Church (Community of Grace) exists to
-              fulfill the Great Commandment and the great Commission.
-            </h1>
-            <p class="mt-2 text-md dark:text-gray-300">
-              In Matthew 22:37-40, Jesus emphasizes the importance of loving God
-              with all our heart, soul, and mind, and loving our neighbors as
-              ourselves, stating that all the law and the Prophets are based on
-              these two commandments. In Matthew 28:19-20, Jesus commands his
-              followers to go and make disciples of all nations, baptizing them
-              in the name of the Father, Son, and Holy Spirit, and teaching them
-              to obey all that He has commanded. Both passages highlight the
-              core of Christian teaching: love for God and others, and the
-              mission to spread this love through discipleship and obedience.
-            </p>
-
-            <h1 class="font-semibold text-lg mt-4 dark:text-white">
-              2. To organize and maintain the following programmes and
-              departments.
-            </h1>
-            <p class="mt-2 text-md dark:text-gray-300">
-              The Nigerian Baptist Convention supports a variety of programs and
-              departments aimed at fostering spiritual growth and community
-              engagement. These include Sunday School, Church Training
-              Programmes, the Women Missionary Union, the Men Missionary Union,
-              House Fellowship or Cell Groups, as well as any other programs or
-              departments that may be approved by the Convention. These
-              initiatives work together to encourage learning, fellowship, and
-              mission work within the church community.
-            </p>
-
-            <h1 class="font-semibold text-lg mt-4 dark:text-white">
-              3. To encourage group activities for enhancing the growth of the
-              church.
-            </h1>
-            <p class="mt-2 text-md dark:text-gray-300">
-              The church seeks to encourage group activities that foster a sense
-              of community and collaboration, aimed at enhancing its growth both
-              spiritually and numerically. These group activities provide
-              opportunities for individuals to connect with one another, share
-              their faith, and support each other in their spiritual journeys.
-            </p> */
-
 const purposeStatement = [
   {
     id: 1,
@@ -62,6 +19,13 @@ const purposeStatement = [
       "To encourage group activities for enhancing the growth of the church.",
     paragraph:
       "The church seeks to encourage group activities that foster a sense of community and collaboration, aimed at enhancing its growth both spiritually and numerically. These group activities provide opportunities for individuals to connect with one another, share their faith, and support each other in their spiritual journeys.",
+  },
+  {
+    id: 4,
+    heading:
+      "To establish and maintain School(s) where children shall be educated under Christian influence.",
+    paragraph:
+      "The church encourages group activities to promote spiritual growth and community. These activities strengthen bonds, deepen faith, and support one another in their journeys. By fostering unity and collaboration, the church enhances its growth, creating a vibrant community focused on shared purpose and fulfilling its mission together.",
   },
 ];
 
