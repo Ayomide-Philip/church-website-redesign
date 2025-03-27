@@ -1,7 +1,39 @@
 import Header from "../componet/Header/header";
 import Footer from "../componet/Footer/footer";
+import { useState } from "react";
 
 export default function CommingSoon() {
+  const targetTime = new Date(2025, 4, 15).getTime() +  24 * 60 * 60 * 1000; // 50 days in milliseconds
+
+  const [timeLeft, setTimeLeft] = useState(targetTime - new Date().getTime());
+
+  const [intervalId, setIntervalId] = useState(null);
+
+
+  if (timeLeft > 0 && intervalId === null) {
+    const id = setInterval(() => {
+
+      const currentTime = new Date().getTime();
+      const remainingTime = targetTime - currentTime;
+
+      if (remainingTime <= 0) {
+        clearInterval(id);
+        setIntervalId(null);
+        setTimeLeft(0);
+      } else {
+        setTimeLeft(remainingTime);
+      }
+    }, 1000);
+    setIntervalId(id);
+  }
+
+  const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+  const hours = Math.floor(
+    (timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  );
+  const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
   return (
     <>
       <Header />
@@ -24,24 +56,24 @@ export default function CommingSoon() {
             <div class="shadow w-full mt-2 max-w-2xl mx-auto rounded-full">
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-10 lg:mt-2">
                 <div class="bg-transparent border text-center">
-                  <p class="text-5xl px-10 py-5">50</p>
+                  <p class="text-5xl px-10 py-5">{days}</p>
                   <hr />
                   <p class="px-10 py-5">days</p>
                 </div>
 
                 <div class="bg-transparent border text-center">
-                  <p class="text-5xl px-10 py-5">00</p>
+                  <p class="text-5xl px-10 py-5">{hours}</p>
                   <hr />
                   <p class="px-10 py-5">hours</p>
                 </div>
 
                 <div class="bg-transparent border text-center">
-                  <p class="text-5xl px-10 py-5">00</p>
+                  <p class="text-5xl px-10 py-5">{minutes}</p>
                   <hr />
                   <p class="px-10 py-5">mins</p>
                 </div>
                 <div class="bg-transparent border text-center">
-                  <p class="text-5xl px-10 py-5">00</p>
+                  <p class="text-5xl px-10 py-5">{seconds}</p>
                   <hr />
                   <p class="px-10 py-5">secs</p>
                 </div>
