@@ -38,12 +38,6 @@ const ourIdentity = [
     href: "/missionandvission",
     icon: cilCompass,
   },
-  // {
-  //   name: "Our Beliefs",
-  //   description: "Your customers’ data will be safe and secure",
-  //   href: "/beliefs",
-  //   icon: cilBook,
-  // },
 ];
 const ministries = [
   {
