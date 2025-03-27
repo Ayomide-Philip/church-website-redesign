@@ -54,20 +54,23 @@ export default function CommingSoon() {
             <div class="shadow w-full mt-2 max-w-2xl mx-auto rounded-full">
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-10 lg:mt-2">
                 <div class="bg-transparent border text-center">
-                  <p class="text-5xl px-10 py-5">{days}</p>
+                  <p class="text-5xl px-10 py-5">
+                    {days > 9 ? `${days}` : `0${days}`}
+                  </p>
                   <hr />
                   <p class="px-10 py-5">days</p>
                 </div>
 
                 <div class="bg-transparent border text-center">
-                  <p class="text-5xl px-10 py-5">{hours}</p>
+                  <p class="text-5xl px-10 py-5">
+                    {hours > 9 ? `${hours}` : `0${hours}`}
+                  </p>
                   <hr />
                   <p class="px-10 py-5">hours</p>
                 </div>
 
                 <div class="bg-transparent border text-center">
                   <p class="text-5xl px-10 py-5">
-                    {" "}
                     {minutes > 9 ? `${minutes}` : `0${minutes}`}
                   </p>
                   <hr />
