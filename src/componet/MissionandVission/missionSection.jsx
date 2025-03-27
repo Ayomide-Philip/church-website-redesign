@@ -27,6 +27,13 @@ const purposeStatement = [
     paragraph:
       "The church encourages group activities to promote spiritual growth and community. These activities strengthen bonds, deepen faith, and support one another in their journeys. By fostering unity and collaboration, the church enhances its growth, creating a vibrant community focused on shared purpose and fulfilling its mission together.",
   },
+  {
+    id: 5,
+    heading:
+      "To co-operate with the (Emmanuel) Baptist Association, Ibadan Baptist Conference, and the Nigeria Baptist Convention in carrying out their aims and objectives as setout in their respective constitution and bye-laws.",
+    paragraph:
+      "The church aims to cooperate with the Emmanuel Baptist Association, Ibadan Baptist Conference, and the Nigerian Baptist Convention to fulfill their objectives, as outlined in their respective constitutions and bye-laws. This collaboration ensures alignment with broader goals, strengthens unity, and supports the advancement of shared missions and values.",
+  },
 ];
 
 export default function MissionSection() {
