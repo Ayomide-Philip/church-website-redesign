@@ -34,6 +34,40 @@ const purposeStatement = [
     paragraph:
       "The church aims to cooperate with the Emmanuel Baptist Association, Ibadan Baptist Conference, and the Nigerian Baptist Convention to fulfill their objectives, as outlined in their respective constitutions and bye-laws. This collaboration ensures alignment with broader goals, strengthens unity, and supports the advancement of shared missions and values.",
   },
+  {
+    id: 6,
+    heading:
+      "To carry out the financial duties laid down in the 'Accounting Regulations and procedure' as may be formulated for the church.",
+    paragraph:
+      "The church is dedicated to fulfilling its financial responsibilities in accordance with the 'Accounting Regulations and Procedures' established for the church. This ensures transparency, accountability, and proper management of resources, allowing the church to effectively handle its finances and support its mission and activities.",
+  },
+  {
+    id: 7,
+    heading: "To worship God in Spirit and truth.",
+    paragraph:
+      "The church is committed to worshiping God in spirit and truth, seeking to honor Him with sincere hearts and genuine faith. This dedication emphasizes the importance of authentic worship that aligns with God's will, fostering a deep and meaningful connection with Him in all aspects of life.",
+  },
+  {
+    id: 8,
+    heading:
+      "To observe the ordinances of Baptism by immersion and the Lord's supper.",
+    paragraph:
+      "The church is committed to observing the ordinances of Baptism by immersion and the Lord's Supper. These sacred practices are central to the faith, symbolizing the believer’s identification with Christ’s death, burial, and resurrection, and fostering fellowship within the body of believers through shared remembrance of His sacrifice.",
+  },
+  {
+    id: 9,
+    heading:
+      "To obeserve all other functions as laid down by the Nigerian Baptist Convention.",
+    paragraph:
+      "The church is committed to observing all other functions as outlined by the Nigerian Baptist Convention. This adherence ensures alignment with the Convention's guidelines, promoting unity and consistency in worship, ministry, and mission activities across the broader Baptist community.",
+  },
+  {
+    id: 10,
+    heading:
+      "To do all such other lawful things as are incidental or conducive to the attainment of the above objects.",
+    paragraph:
+      "The church is dedicated to carrying out all other lawful activities that are incidental or conducive to achieving the above objectives. This includes taking necessary actions that support the mission, growth, and overall purpose of the church, while staying within legal and ethical guidelines.",
+  },
 ];
 
 export default function MissionSection() {
