@@ -1,12 +1,15 @@
 export default function ChildrenLeader() {
   return (
     <section class="text-white bg-gray-400 body-font">
-      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <h2 class="text-3xl font-bold text-center pt-10 sm:text-5xl">
+        New Features
+      </h2>
+      <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
           <img
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://dummyimage.com/720x600"
+            src="/images/leaders/guidingLight/rvedMiss.jpg"
           />
         </div>
         <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
