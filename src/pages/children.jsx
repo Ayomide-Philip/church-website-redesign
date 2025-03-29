@@ -9,8 +9,8 @@ export default function Children() {
       <Header />
       <VideoBanner
         video="mission-video"
-        title="The Mission and Vision of the Church"
-        subtitle="The Mission and Vision of the Church"
+        title="The Children Ministry"
+        subtitle="...The Light of the World."
       />
       <ChildrenPage />
       <Footer />
