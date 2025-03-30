@@ -72,40 +72,39 @@ const purposeStatement = [
 
 export default function MissionSection() {
   return (
-    <div class="w-full h-full bg-white dark:bg-gray-800">
-      <div class="w-full mx-auto py-5 bg-white dark:bg-gray-800">
+    <div class="w-full h-full  bg-gray-800">
+      <div class="w-full mx-auto py-5  bg-gray-800">
         <div class="w-[90%] mx-auto flex md:gap-4 xs:gap-2 justify-center items-center pt-2">
           <div class="flex gap-2 items-center">
             <img
               src="/images/images.png"
               alt="Church Profile"
-              class="md:w-[2.2rem] md:h-[2.2rem] xs:w-[2rem] xs:h-[2rem] rounded-full"
+              className="w-10 h-10 sm:w-12 sm:h-12 md:w-[2.2rem] md:h-[2.2rem] lg:w-[3rem] lg:h-[3rem] rounded-full"
             />
-            <h2 class="text-sm font-semibold dark:text-white">
+
+            <h2 class="text-sm font-semibold text-white">
               Gateway Baptist Church
             </h2>
           </div>
 
-          <div class="dark:text-gray-500">|</div>
-          <h4 class="text-sm font-semibold text-gray-600 dark:text-gray-400">
-            5 MIN READ
-          </h4>
+          <div class="text-gray-500">|</div>
+          <h4 class="text-sm font-semibold  text-gray-400">5 MIN READ</h4>
         </div>
-        <h1 class="w-[92%] mx-auto lg:text-4xl md:text-3xl xs:text-2xl text-center font-serif font-semibold pb-2 pt-2 dark:text-white">
+        <h1 class="w-[92%] mx-auto lg:text-4xl md:text-3xl xs:text-2xl text-center font-serif font-semibold pb-2 pt-2 text-white">
           Our Purpose Statement | Our Mission and Vision as a Church.
         </h1>
-        <div class="py-2 bg-white dark:bg-gray-800">
+        <div class="py-2  bg-gray-800">
           <div class="md:w-[80%] xs:w-[90%] mx-auto pt-4">
             {purposeStatement.map((purpose) => {
               return (
                 <>
                   <h1
                     key={purpose.id}
-                    class="font-semibold text-lg mt-4 dark:text-white"
+                    class="font-semibold text-lg mt-4 text-white"
                   >
                     {purpose.id}. {purpose.heading}
                   </h1>
-                  <p key={purpose.id} class="mt-2 text-md dark:text-gray-300">
+                  <p key={purpose.id} class="mt-2 text-md text-gray-300">
                     {purpose.paragraph}
                   </p>
                 </>
