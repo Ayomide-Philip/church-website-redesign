@@ -9,12 +9,9 @@ const isLocalhost = Boolean(
 
 export function register() {
   if ("serviceWorker" in navigator) {
-    // Wait until the window is loaded before registering the service worker
     window.addEventListener("load", () => {
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
-
       if (isLocalhost) {
-        // Check if service worker is already registered on localhost
         checkValidServiceWorker(swUrl);
       } else {
         registerValidSW(swUrl);
