@@ -5,11 +5,15 @@ export default function TeenagerWelcome() {
         <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div class="sm:max-w-lg">
             <h1 class="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Svelte signals are finally here
+              Welcome to Our Teenager Church!
             </h1>
             <p class="mt-4 text-xl text-gray-500">
-              This year, our new svelte signals will shelter you from the harsh
-              elements of a world that doesn't care if you develop or die.
+              At Harmony Community Church, we recognize the unique needs and
+              challenges of teenagers as they navigate this pivotal stage of
+              life. Our Teenager Church is dedicated to providing a supportive,
+              engaging, and faith-building environment where teens can explore
+              their faith, build meaningful relationships, and discover their
+              God-given potential.
             </p>
           </div>
           <div>
@@ -20,7 +24,6 @@ export default function TeenagerWelcome() {
               >
                 <div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                   <div class="flex items-center space-x-6 lg:space-x-8">
-                    
                     <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                         <img
@@ -42,38 +45,41 @@ export default function TeenagerWelcome() {
                     <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div class="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="https://placekeanu.com/684/350/"
+                          src="/images/Teenagers/IMG-20240714-WA0013.jpg"
+                          alt="teenager"
+                          class="h-full w-full object-cover object-center"
+                        />
+                      </div>
+
+                      <div class="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="/images/Teenagers/IMG-20240714-WA0015.jpg"
+                          alt="teenager"
+                          class="h-full w-full object-cover object-center"
+                        />
+                      </div>
+
+                      <div class="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="/images/Teenagers/IMG-20240714-WA0016.jpg"
+                          alt="teenager"
+                          class="h-full w-full object-cover object-center"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                      <div class="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="/images/Teenagers/IMG-20240714-WA0018.jpg"
                           alt="teenager"
                           class="h-full w-full object-cover object-center"
                         />
                       </div>
                       <div class="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="https://placekeanu.com/250/350/y"
-                          alt=""
-                          class="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://placekitten.com/g/200/300"
-                          alt=""
-                          class="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                    </div>
-                    <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://placekeanu.com/684/350/y"
-                          alt=""
-                          class="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://placebear.com/684/350"
-                          alt=""
+                          src="/images/Teenagers/IMG-20240714-WA0021.jpg"
+                          alt="teenager"
                           class="h-full w-full object-cover object-center"
                         />
                       </div>
@@ -82,12 +88,12 @@ export default function TeenagerWelcome() {
                 </div>
               </div>
 
-              <a
+              {/* <a
                 href="./#"
                 class="inline-block rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-center font-medium text-white hover:bg-indigo-700"
               >
                 Svelte Signals
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
