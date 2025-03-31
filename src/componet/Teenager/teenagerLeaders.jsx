@@ -76,6 +76,7 @@ export default function TeenagerLeaders() {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </section>
