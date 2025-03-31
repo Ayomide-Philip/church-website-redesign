@@ -1,7 +1,10 @@
 export default function ChildrenPresentation() {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <h2 class="text-3xl font-semibold tracking-tight text-center pt-10 text-black sm:text-5xl">
+        Presentations from Our Children
+      </h2>
+      <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">
             <div className="flex flex-col justify-center items-center bg-gray-100">
