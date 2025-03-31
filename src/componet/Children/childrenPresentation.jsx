@@ -103,31 +103,15 @@ export default function ChildrenPresentation() {
                 </div>
 
                 <div className="p-6">
-                  <h2 className="text-2xl font-bold text-gray-800 mb-2">
-                    Beautiful Mountain View
+                  <h2 className="text-2xl font-bold text-gray-800 mb-2 text-center">
+                    Children  Drama Presentation
                   </h2>
-                  <p className="text-gray-700 leading-tight mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam eu sapien porttitor, blandit velit ac, vehicula
-                    elit. Nunc et ex at turpis rutrum viverra.
-                  </p>
-                  <div className="flex justify-between items-center">
-                    <div className="flex items-center">
-                      <img
-                        src="https://randomuser.me/api/portraits/men/32.jpg"
-                        alt="Avatar"
-                        className="w-8 h-8 rounded-full mr-2 object-cover"
-                      />
-                      <span className="text-gray-800 font-semibold">
-                        John Doe
-                      </span>
-                    </div>
-                    <span className="text-gray-600">2 hours ago</span>
-                  </div>
                 </div>
+
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </section>
