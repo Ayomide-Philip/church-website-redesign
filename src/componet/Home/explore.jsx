@@ -5,7 +5,7 @@ const explore = [
     title: "History of The Church",
     description:
       "Our church's mission is to spread faith, love, and hope, guiding people toward spiritual growth and a deeper connection with God.",
-    link: "./#",
+    link: "/history",
   },
   {
     images: "mission",
@@ -13,7 +13,7 @@ const explore = [
     title: "Mission of The Church",
     description:
       "Founded years ago, our church has grown through dedication, faith, and service, impacting countless lives within the community and beyond.",
-    link: "./#",
+    link: "/missionandvission",
   },
   {
     images: "donate-pic",
@@ -21,7 +21,7 @@ const explore = [
     title: "Donation to The Church",
     description:
       "Generous donations help sustain our ministries, support the needy, and expand our outreach efforts, making a lasting difference in people’s lives.",
-    link: "./#",
+    link: "/donate",
   },
 ];
 
