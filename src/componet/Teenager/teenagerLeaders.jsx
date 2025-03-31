@@ -20,7 +20,7 @@ export default function TeenagerLeaders() {
                 <h2 class="title-font font-medium text-lg text-white ">
                   Pastor Mrs T.A Ogunjimi
                 </h2>
-                <h3 class="text-white mb-3">Lorem ipsum</h3>
+                <h3 class="text-white mb-3">Pastor</h3>
                 <p class="mb-4">
                   She has been leading our Teenager Church for over a years. A
                   passionate person for guiding teens through their spiritual
@@ -43,7 +43,7 @@ export default function TeenagerLeaders() {
                 <h2 class="title-font font-medium text-lg text-white ">
                   Pastor Adeduntan Taiwo Akinola
                 </h2>
-                <h3 class="text-white mb-3">Lorem ipsum</h3>
+                <h3 class="text-white mb-3">Assistant Pastor</h3>
                 <p class="mb-4">
                   Pastor Adeduntan Taiwo Akinola, the Teen Pastor Assistant at
                   Gateway Baptist Church, supports our youth with dedication in
@@ -66,7 +66,7 @@ export default function TeenagerLeaders() {
                 <h2 class="title-font font-medium text-lg text-white ">
                   Dn. Dr. Sola Olayiwola
                 </h2>
-                <h3 class="text-white mb-3">Teenagers Co-Ordinator</h3>
+                <h3 class="text-white mb-3">Co-ordinator</h3>
                 <p class="mb-4">
                   Dn. Dr. Sola Olayiwola, our dedicated Teen Administrator ,
                   passionately guides teenagers through their spiritual journeys
@@ -76,7 +76,6 @@ export default function TeenagerLeaders() {
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </section>
