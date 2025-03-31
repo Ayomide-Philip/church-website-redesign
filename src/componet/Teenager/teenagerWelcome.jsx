@@ -25,6 +25,7 @@ export default function TeenagerWelcome() {
                         <img
                           src="https://placekitten.com/g/200/300"
                           class="h-full w-full object-cover object-center"
+                          alt=""
                         />
                       </div>
                       <div class="h-64 w-44 overflow-hidden rounded-lg">
@@ -79,7 +80,7 @@ export default function TeenagerWelcome() {
               </div>
 
               <a
-                href="#"
+                href="./#"
                 class="inline-block rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-center font-medium text-white hover:bg-indigo-700"
               >
                 Svelte Signals
