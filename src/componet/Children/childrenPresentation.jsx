@@ -50,7 +50,7 @@ export default function ChildrenPresentation() {
                 <div className="relative w-full">
                   <iframe
                     title="Children"
-                    src="https://web.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F468138169137353%2F%"
+                    src="https://www.youtube.com/embed/5WMkMhIYPpM?si=uU7_9UL7sXaFf0UW"
                     className="w-full h-[300px]"
                     style={{ border: "none", display: "block" }}
                     allowFullScreen={true}
@@ -84,6 +84,7 @@ export default function ChildrenPresentation() {
               </div>
             </div>
           </div>
+
           <div className="p-4 md:w-1/3">
             <div className="flex flex-col justify-center items-center bg-gray-100">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-lg w-full">
