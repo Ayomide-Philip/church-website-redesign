@@ -22,7 +22,8 @@ export default function TeenagerLeaders() {
                 </h2>
                 <h3 class="text-white mb-3">Lorem ipsum</h3>
                 <p class="mb-4">
-                  A passionate person for guiding teens through their spiritual
+                  She has been leading our Teenager Church for over a years. A
+                  passionate person for guiding teens through their spiritual
                   journey, Pastor Mrs Ogunjimi brings energy and insight to
                   every service and event.
                 </p>
@@ -67,10 +68,10 @@ export default function TeenagerLeaders() {
                 </h2>
                 <h3 class="text-white mb-3">Teenagers Co-Ordinator</h3>
                 <p class="mb-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                  nesciunt quisquam? Dolores cumque qui rerum possimus sequi ab
-                  enim voluptatibus ipsum esse quod. Blanditiis harum doloribus
-                  dignissimos hic ut omnis?
+                  Dn. Dr. Sola Olayiwola, our dedicated Teen Administrator ,
+                  passionately guides teenagers through their spiritual journeys
+                  and a commitment to fostering a welcoming and supportive
+                  environment.
                 </p>
               </div>
             </div>
