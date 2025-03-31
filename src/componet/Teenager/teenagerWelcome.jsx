@@ -21,26 +21,29 @@ export default function TeenagerWelcome() {
                 <div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                   <div class="flex items-center space-x-6 lg:space-x-8">
                     <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+
                       <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                         <img
-                          src="https://placekitten.com/g/200/300"
+                          src="/images/Teenagers/IMG-10.04.31_fc165bf9.jpg"
                           class="h-full w-full object-cover object-center"
                           alt=""
                         />
                       </div>
+
                       <div class="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="https://placekeanu.com/200/300"
+                          src="/images/Teenagers/IMG-20240714-WA0012.jpg"
                           alt=""
                           class="h-full w-full object-cover object-center"
                         />
                       </div>
+                      
                     </div>
                     <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div class="h-64 w-44 overflow-hidden rounded-lg">
                         <img
                           src="https://placekeanu.com/684/350/"
-                          alt=""
+                          alt="teenager"
                           class="h-full w-full object-cover object-center"
                         />
                       </div>
