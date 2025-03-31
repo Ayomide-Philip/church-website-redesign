@@ -22,10 +22,9 @@ export default function TeenagerLeaders() {
                 </h2>
                 <h3 class="text-white mb-3">Lorem ipsum</h3>
                 <p class="mb-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                  nesciunt quisquam? Dolores cumque qui rerum possimus sequi ab
-                  enim voluptatibus ipsum esse quod. Blanditiis harum doloribus
-                  dignissimos hic ut omnis?
+                  A passionate person for guiding teens through their spiritual
+                  journey, Pastor Mrs Ogunjimi brings energy and insight to
+                  every service and event.
                 </p>
               </div>
             </div>
