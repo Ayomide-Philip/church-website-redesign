@@ -1,6 +1,7 @@
 import Header from "../componet/Header/header";
 import Footer from "../componet/Footer/footer";
 import VideoBanner from "../componet/Banner/videoBanner";
+import TeenagerWelcome from "../componet/Teenager/teenagerWelcome";
 
 export default function Teenagers() {
   return (
@@ -11,6 +12,7 @@ export default function Teenagers() {
         title="The Teenagers Ministry"
         subtitle="...Learn more about the Teenagers Ministry."
       />
+      <TeenagerWelcome />
       <Footer />
     </>
   );
