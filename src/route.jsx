@@ -10,6 +10,7 @@ import ContactUs from "./pages/contactus";
 import Leader from "./pages/leader";
 import Missionandvission from "./pages/missionAndVission";
 import Children from "./pages/children";
+import Teenagers from "./pages/teenagers";
 
 function AppRouting() {
   return (
@@ -18,7 +19,7 @@ function AppRouting() {
       <Route path="/history" element={<History />} />
       <Route path="/missionandvission" element={<Missionandvission />} />
       <Route path="/childrenMinistry" element={<Children />} />
-      <Route path="/teenagerMinistry" element={<CommingSoon />} />
+      <Route path="/teenagerMinistry" element={<Teenagers />} />
       <Route path="/blog" element={<CommingSoon />} />
       <Route path="/contact" element={<ContactUs />} />
       <Route path="/donate" element={<CommingSoon />} />
