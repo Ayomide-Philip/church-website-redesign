@@ -44,10 +44,10 @@ export default function TeenagerLeaders() {
                 </h2>
                 <h3 class="text-white mb-3">Lorem ipsum</h3>
                 <p class="mb-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                  nesciunt quisquam? Dolores cumque qui rerum possimus sequi ab
-                  enim voluptatibus ipsum esse quod. Blanditiis harum doloribus
-                  dignissimos hic ut omnis?
+                  Pastor Adeduntan Taiwo Akinola, the Teen Pastor Assistant at
+                  Gateway Baptist Church, supports our youth with dedication in
+                  helping to create a nurturing and engaging environment for
+                  their spiritual growth.
                 </p>
               </div>
             </div>
