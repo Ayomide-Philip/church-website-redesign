@@ -36,12 +36,12 @@ export default function TeenagerLeaders() {
               <img
                 alt="team"
                 class="flex-shrink-0 rounded-lg w-60 h-56 object-cover object-[center_top] mb-4"
-                src="/public/images/leaders/guidingLight/teen-pastor.jpg"
+                src="/images/leaders/guidingLight/teenager-pastor.jpg"
               />
 
               <div class="w-full">
                 <h2 class="title-font font-medium text-lg text-white ">
-                  Pastor Mrs T.A Ogunjimi
+                  Pastor Adeduntan Taiwo Akinola
                 </h2>
                 <h3 class="text-white mb-3">Lorem ipsum</h3>
                 <p class="mb-4">
