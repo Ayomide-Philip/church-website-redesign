@@ -84,15 +84,20 @@ export default function ChildrenPresentation() {
               </div>
             </div>
           </div>
-
           <div className="p-4 md:w-1/3">
             <div className="flex flex-col justify-center items-center bg-gray-100">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-lg w-full">
-                <img
-                  src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606"
-                  alt="Mountain"
-                  className="w-full h-64 object-cover" // Ensures the image covers its container properly
-                />
+                <div className="relative w-full">
+                  <iframe
+                    title="Children"
+                    src="https://www.youtube.com/embed/2l5HE0gHTmY?si=9cuPt51yUuBpGkSJ"
+                    className="w-full h-[300px]"
+                    style={{ border: "none", display: "block" }}
+                    allowFullScreen={true}
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                  ></iframe>
+                </div>
+
                 <div className="p-6">
                   <h2 className="text-2xl font-bold text-gray-800 mb-2">
                     Beautiful Mountain View
