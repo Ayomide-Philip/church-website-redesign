@@ -3,6 +3,7 @@ import Footer from "../componet/Footer/footer";
 import VideoBanner from "../componet/Banner/videoBanner";
 import TeenagerWelcome from "../componet/Teenager/teenagerWelcome";
 import TeenagerLeaders from "../componet/Teenager/teenagerLeaders";
+import TeenagerGallary from "../componet/Teenager/teenagerGallary";
 
 export default function Teenagers() {
   return (
@@ -15,6 +16,7 @@ export default function Teenagers() {
       />
       <TeenagerWelcome />
       <TeenagerLeaders />
+      <TeenagerGallary />
       <Footer />
     </>
   );
