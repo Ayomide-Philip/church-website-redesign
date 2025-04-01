@@ -8,7 +8,7 @@ export default function TeenagerWelcome() {
               Welcome to Our Teenager Church!
             </h1>
             <p class="mt-4 text-xl text-gray-500">
-              At Harmony Community Church, we recognize the unique needs and
+              At Gateway Baptist Church, we recognize the unique needs and
               challenges of teenagers as they navigate this pivotal stage of
               life. Our Teenager Church is dedicated to providing a supportive,
               engaging, and faith-building environment where teens can explore
