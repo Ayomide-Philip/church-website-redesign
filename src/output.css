@@ -534,9 +534,6 @@
   .aspect-577\/310 {
     aspect-ratio: 577/310;
   }
-  .aspect-\[16\/9\] {
-    aspect-ratio: 16/9;
-  }
   .aspect-video {
     aspect-ratio: var(--aspect-video);
   }
@@ -1066,6 +1063,9 @@
   }
   .stroke-gray-200 {
     stroke: var(--color-gray-200);
+  }
+  .object-contain {
+    object-fit: contain;
   }
   .object-cover {
     object-fit: cover;
@@ -1635,13 +1635,6 @@
       }
     }
   }
-  .hover\:text-indigo-600 {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-indigo-600);
-      }
-    }
-  }
   .hover\:opacity-75 {
     &:hover {
       @media (hover: hover) {
@@ -1864,11 +1857,6 @@
       padding: calc(var(--spacing) * 3);
     }
   }
-  .sm\:p-10 {
-    @media (width >= 40rem) {
-      padding: calc(var(--spacing) * 10);
-    }
-  }
   .sm\:px-3\.5 {
     @media (width >= 40rem) {
       padding-inline: calc(var(--spacing) * 3.5);
@@ -2088,11 +2076,6 @@
   .md\:gap-4 {
     @media (width >= 48rem) {
       gap: calc(var(--spacing) * 4);
-    }
-  }
-  .md\:p-16 {
-    @media (width >= 48rem) {
-      padding: calc(var(--spacing) * 16);
     }
   }
   .md\:py-6 {
@@ -2394,17 +2377,6 @@
     @media (width >= 64rem) {
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 0;
-    }
-  }
-  .lg\:border-t {
-    @media (width >= 64rem) {
-      border-top-style: var(--tw-border-style);
-      border-top-width: 1px;
-    }
-  }
-  .lg\:border-gray-400 {
-    @media (width >= 64rem) {
-      border-color: var(--color-gray-400);
     }
   }
   .lg\:px-0 {

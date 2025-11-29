@@ -3,7 +3,7 @@ import Footer from "../componet/Footer/footer";
 import { useState } from "react";
 
 export default function CommingSoon() {
-  const targetTime = new Date(2025, 4, 15).getTime() + 24 * 60 * 60 * 1000;
+  const targetTime = new Date(2025, 12, 15).getTime() + 24 * 60 * 60 * 1000;
 
   const [timeLeft, setTimeLeft] = useState(targetTime - new Date().getTime());
 

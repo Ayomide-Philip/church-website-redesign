@@ -2,11 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import "./output.css";
-import { inject } from "@vercel/analytics";
 import AppRouting from "./route";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
-
-inject();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
